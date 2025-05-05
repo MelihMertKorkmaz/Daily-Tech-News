@@ -1,0 +1,39 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Daily Tech News Summary</title>
+    <link rel="stylesheet" href="{% static 'news/styles.css' %}">
+</head>
+<body>
+    <button class="theme-toggle-btn" onclick="toggleTheme()">🌙</button>
+    <h1>Daily Tech News Summary</h1>
+    <ul style="font-size: 35px">
+    {% for date in dates %}
+        <li><a href="{% url 'daily_summary_by_date' date.url %}">{{ date.display }}</a></li>
+    {% endfor %}
+    </ul>
+    <script>
+        function applyStoredTheme() {
+            const darkModeEnabled = localStorage.getItem('darkMode') === 'true';
+            if (darkModeEnabled) {
+                document.body.classList.add('dark-mode');
+                document.querySelectorAll('h1, h2, h3, li, a').forEach(el => el.classList.add('dark-mode'));
+                document.querySelector('.theme-toggle-btn').textContent = '☀️';
+            }
+        }
+
+        function toggleTheme() {
+            const isDark = document.body.classList.toggle('dark-mode');
+            document.querySelectorAll('h1, h2, h3, li, a').forEach(el => el.classList.toggle('dark-mode'));
+            localStorage.setItem('darkMode', isDark);
+            document.querySelector('.theme-toggle-btn').textContent = isDark ? '☀️' : '🌙';
+        }
+
+        document.addEventListener('DOMContentLoaded', applyStoredTheme);
+    </script>
+
+</body>
+</html>

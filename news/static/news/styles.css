@@ -1,0 +1,149 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    padding: 20px;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode body styling */
+body.dark-mode {
+    background-color: black;
+    color: #ecf0f1;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+/* Dark theme header */
+body.dark-mode h1 {
+    color: #ecf0f1;
+}
+
+/* Date header styling */
+h2 {
+    font-size: 1.4em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Dark theme date header */
+body.dark-mode h2 {
+    color: #ecf0f1;
+}
+
+/* Styling for unordered list (articles) */
+ul {
+    list-style-type: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+li {
+    font-size: 19px;
+    background-color: #fff;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+/* Dark mode list items */
+body.dark-mode li {
+    background-color: black;
+    color: #ecf0f1;
+    border: 2px solid #333333;
+}
+
+/* List item hover effect */
+li:hover {
+    background-color: #ecf0f1;
+}
+
+body.dark-mode li:hover {
+    background-color: #333333;
+}
+
+/* Link styling */
+a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Dark mode link */
+body.dark-mode a {
+    color: #ecf0f1;
+}
+
+/* Link hover effect */
+a:hover {
+    color: #2980b9;
+}
+
+body.dark-mode a:hover {
+    color: deepskyblue;
+}
+
+
+.theme-toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Dark mode button */
+body.dark-mode .theme-toggle-btn {
+    background-color: lightyellow;
+}
+
+/* Button hover effect */
+.theme-toggle-btn:hover {
+    background-color: black;
+}
+
+body.dark-mode .theme-toggle-btn:hover {
+    background-color: white;
+}
+
+/* Small device adjustment */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2, h3 {
+        font-size: 1.2em;
+    }
+
+    li {
+        font-size: 0.9em;
+    }
+}
