@@ -1,3 +1,5 @@
+# slidedeck + image gen
+
 from django.shortcuts import render, get_object_or_404
 from datetime import datetime
 from .models import DailySummary, Article
@@ -24,11 +26,14 @@ def daily_summary_by_date_view(request, date):
 
     summary = get_object_or_404(DailySummary, date=parsed_date)
     articles = Article.objects.filter(published__date=parsed_date)
-    links = [article.link for article in articles]
+    links= [article.link for article in articles]
+    titles= [article.title for article in articles]
     splitted_articles=summary.summary.split('\n\n')
-
+    indexes=[n+1 for n in range(len(splitted_articles))]
+    article_data= zip(indexes, titles, splitted_articles, links)
     return render(request, 'news/daily_summary.html', {
         'summary': summary,
         'links': links,
-        'splitted_articles': splitted_articles,
+        'titles': titles,
+        'article_data': article_data,
     })

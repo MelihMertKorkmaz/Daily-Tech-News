@@ -23,8 +23,8 @@ def generate_summary(specified_date=None):
 
     full_prompt = (
         "You are an expert tech news editor. From the news articles I provide, summarize each piece into 8-10 clear, concise sentences that retain all critical details. "+
-        "Use this format: first article'\n\n' second article'\n\n' third article... add indexes on articles also"+
-        " Do not add any commentary, greetings, or explanations. Just return the formatted summaries. Start the news with their indexes."
+        "Use this format: first article '\n\n' second article '\n\n' third article... "+
+        " Do not add any commentary, greetings, or explanations. Just return the formatted summaries. NO ORDER INDEX, OR ANY SYMBOLS IN THE BEGINNING. Start with the article"
         + "\n\n" + "\n\n".join(article_blocks)
     )
 
