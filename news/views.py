@@ -30,10 +30,14 @@ def daily_summary_by_date_view(request, date):
     titles= [article.title for article in articles]
     splitted_articles=summary.summary.split('\n\n')
     indexes=[n+1 for n in range(len(splitted_articles))]
-    article_data= zip(indexes, titles, splitted_articles, links)
+    images = [article.image_url for article in articles]
+    article_data= zip(indexes, titles, splitted_articles, links, images)
+
+
     return render(request, 'news/daily_summary.html', {
         'summary': summary,
         'links': links,
         'titles': titles,
         'article_data': article_data,
+
     })

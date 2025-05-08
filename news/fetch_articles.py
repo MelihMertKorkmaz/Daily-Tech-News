@@ -47,6 +47,7 @@ def fetch_and_parse_feeds(specified_date=None):
                 published = datetime.datetime(*entry.published_parsed[:6], tzinfo=datetime.timezone.utc)
 
             full_text = scrape_full_text(link)
+            image_url = fetch_og_image(link)
 
             try:
                 article = Article.objects.create(
@@ -54,6 +55,7 @@ def fetch_and_parse_feeds(specified_date=None):
                     link=link,
                     published=published,
                     full_text=full_text,
+                    image_url= image_url
                 )
                 articles.append(article)
                 logger.info(f"Article '{title}' successfully saved to the database.")
@@ -75,6 +77,17 @@ def scrape_full_text(url):
         logger.error(f"Error scraping {url}: {e}")
         return ""
 
+#to fetch overgraph image (preview image)
+def fetch_og_image(url):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'html.parser')
+    og_image = soup.find('meta', property='og:image')
+    if og_image:
+        return og_image['content']
+    first_img = soup.find('img')
+    if first_img and first_img.get('src'):
+        return first_img['src']
+    return None
 
 def is_date(entry, specified_date):
     try:

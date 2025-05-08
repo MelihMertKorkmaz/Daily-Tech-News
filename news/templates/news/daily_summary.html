@@ -40,10 +40,13 @@
     .slide-container {
       position: relative;
       width: 100%;
-      max-width: 800px;
+      max-width: 1000px;
       margin: 2rem auto;
       min-height: 400px;
       overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .article-slide {
@@ -58,8 +61,16 @@
       border-radius: 10px;
       background: rgba(255, 255, 255, 0.05);
       font-size: 1.2rem;
-    }
 
+    }
+    .article-slide img{
+      display: block;
+      margin: 1rem auto;
+      max-width: 80%;
+      max-height: 400px;
+      height: auto;
+      border: solid 2px black;
+    }
     .article-slide.active {
       opacity: 1;
       transform: translateX(0);
@@ -94,12 +105,17 @@
   <h2><strong>Date:</strong> {{ summary.date }}</h2>
 
   <div class="slide-container">
-    {% for index, title, article, link in article_data %}
+    {% for index, title, article, link, image in article_data %}
       <div class="article-slide{% if forloop.first %} active{% endif %}">
         <h2>{{index}}.  {{title}}</h2>
         <p> &nbsp;&nbsp;{{ article }}</p>
-        <a href="{{link}}" style='color: #bb86fc' target="_blank">{{link}} </a>
+        <a href="{{link}}" style='color: #bb86fc' target="_blank">{{link}}</a>
+        {% if image %}
+        <br>
+        <img src='{{image}}'>
+        {% endif %}
       </div>
+
     {% endfor %}
   </div>
 

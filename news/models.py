@@ -9,6 +9,7 @@ class Article(models.Model):
     link= models.URLField()
     published= models.DateTimeField(null=True)
     full_text = models.TextField(default="No text available")
+    image_url = models.URLField(null=True)
     def __repr__(self):
         return self.title
 
