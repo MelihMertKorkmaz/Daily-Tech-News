@@ -94,11 +94,11 @@ body.dark-mode a {
 
 /* Link hover effect */
 a:hover {
-    color: #2980b9;
+    color: darkblue;
 }
 
 body.dark-mode a:hover {
-    color: deepskyblue;
+    color: #bb86fc;
 }
 
 

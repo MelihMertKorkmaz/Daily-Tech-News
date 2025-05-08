@@ -3482,3 +3482,176 @@
 2025-05-08 15:47:20,482 - INFO - Skipping article 'A Judge Says Meta’s AI Copyright Case Is About ‘the Next Taylor Swift’' as it is not from specified date.
 2025-05-08 15:47:20,482 - INFO - Skipping article 'Think Twice Before Creating That ChatGPT Action Figure' as it is not from specified date.
 2025-05-08 15:47:43,011 - INFO - Summary generated and saved for 2025-05-08.
+2025-05-08 21:29:04,375 - INFO - Fetching feed from TechCrunch All (https://techcrunch.com/feed/)
+2025-05-08 21:29:04,406 - INFO - Fetching feed from SkyNews Tech (https://feeds.skynews.com/feeds/rss/technology.xml)
+2025-05-08 21:29:04,426 - INFO - Fetching feed from Wired AI (https://www.wired.com/feed/tag/ai/latest/rss)
+2025-05-08 21:29:04,446 - INFO - Fetching feed from Wired Bussiness (https://www.wired.com/feed/category/business/latest/rss)
+2025-05-08 21:29:09,446 - INFO - Fetching feed from TechCrunch All (https://techcrunch.com/feed/)
+2025-05-08 21:29:09,465 - INFO - Fetching feed from SkyNews Tech (https://feeds.skynews.com/feeds/rss/technology.xml)
+2025-05-08 21:29:09,485 - INFO - Fetching feed from Wired AI (https://www.wired.com/feed/tag/ai/latest/rss)
+2025-05-08 21:29:09,504 - INFO - Fetching feed from Wired Bussiness (https://www.wired.com/feed/category/business/latest/rss)
+2025-05-08 21:29:49,729 - INFO - Fetching feed from TechCrunch All (https://techcrunch.com/feed/)
+2025-05-08 21:29:51,104 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/google-launches-implicit-caching-to-make-accessing-its-latest-ai-models-cheaper/
+2025-05-08 21:29:52,401 - INFO - Article 'Google launches ‘implicit caching’ to make accessing its latest AI models cheaper' successfully saved to the database.
+2025-05-08 21:29:52,402 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/instagram-threads-is-getting-video-ads/
+2025-05-08 21:29:53,726 - INFO - Article 'Instagram Threads is getting video ads' successfully saved to the database.
+2025-05-08 21:29:53,727 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/powerschool-paid-a-hackers-ransom-but-now-schools-say-they-are-being-extorted/
+2025-05-08 21:29:55,087 - INFO - Article 'PowerSchool paid a hacker’s ransom, but now schools say they are being extorted' successfully saved to the database.
+2025-05-08 21:29:55,087 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/google-rolls-out-ai-tools-to-protect-chrome-users-against-scams/
+2025-05-08 21:29:56,324 - INFO - Article 'Google rolls out AI tools to protect Chrome users against scams' successfully saved to the database.
+2025-05-08 21:29:56,325 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/chinas-geely-moves-to-take-ev-startup-zeekr-private-amid-trade-war-with-us/
+2025-05-08 21:29:57,491 - INFO - Article 'China’s Geely moves to take EV startup Zeekr private amid trade war with US' successfully saved to the database.
+2025-05-08 21:29:57,492 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/exhibit-your-startup-at-techcrunch-sessions-ai-while-you-still-can/
+2025-05-08 21:29:58,624 - INFO - Article 'Exhibit your startup at TechCrunch Sessions: AI while you still can!' successfully saved to the database.
+2025-05-08 21:29:58,625 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/starlinks-launch-in-india-now-a-matter-of-when-not-if/
+2025-05-08 21:30:00,192 - INFO - Article 'Starlink’s launch in India now a matter of when, not if' successfully saved to the database.
+2025-05-08 21:30:00,194 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/clay-authorizes-employee-tender-at-a-1-5b-valuation-led-by-sequoia/
+2025-05-08 21:30:01,675 - INFO - Article 'Sequoia leads $1.5B tender offer for sales automation startup Clay' successfully saved to the database.
+2025-05-08 21:30:01,676 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/openai-launches-a-data-residency-program-in-asia/
+2025-05-08 21:30:03,670 - INFO - Article 'OpenAI launches a data residency program in Asia' successfully saved to the database.
+2025-05-08 21:30:03,671 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/bill-gates-tells-his-foundation-to-spend-it-all-by-2045/
+2025-05-08 21:30:05,023 - INFO - Article 'Bill Gates tells his foundation to spend it all by 2045' successfully saved to the database.
+2025-05-08 21:30:05,024 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/match-to-lay-off-13-of-staff/
+2025-05-08 21:30:06,587 - INFO - Article 'Match to lay off 13% of staff' successfully saved to the database.
+2025-05-08 21:30:06,588 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/amazons-newest-ai-tool-is-designed-to-enhance-product-listings/
+2025-05-08 21:30:08,101 - INFO - Article 'Amazon’s newest AI tool is designed to enhance product listings' successfully saved to the database.
+2025-05-08 21:30:08,103 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/reddit-intros-new-profile-tools-for-business-customers/
+2025-05-08 21:30:09,292 - INFO - Article 'Reddit intros new profile tools for its business customers' successfully saved to the database.
+2025-05-08 21:30:09,293 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/asking-chatbots-for-short-answers-can-increase-hallucinations-study-finds/
+2025-05-08 21:30:10,678 - INFO - Article 'Asking chatbots for short answers can increase hallucinations, study finds' successfully saved to the database.
+2025-05-08 21:30:10,679 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/vc-firm-insight-partners-confirms-personal-data-stolen-during-january-hack/
+2025-05-08 21:30:11,952 - INFO - Article 'VC firm Insight Partners confirms personal data stolen during January hack' successfully saved to the database.
+2025-05-08 21:30:11,953 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/hims-hers-ceo-turned-to-the-autonomous-vehicle-industry-to-find-an-ai-savvy-exec/
+2025-05-08 21:30:13,127 - INFO - Article 'Why Hims & Hers turned to the autonomous vehicle industry to find an AI-savvy CTO' successfully saved to the database.
+2025-05-08 21:30:13,127 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/apple-urges-court-to-suspend-ruling-that-bars-it-from-taking-a-cut-on-external-app-payments/
+2025-05-08 21:30:14,690 - INFO - Article 'Apple tries to delay ruling that bars it from taking a cut on external app payments' successfully saved to the database.
+2025-05-08 21:30:14,691 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/bosch-ventures-new-270m-fund-is-turning-its-attention-to-north-america/
+2025-05-08 21:30:16,168 - INFO - Article 'Bosch Ventures is turning its attention to North America with new $270M fund' successfully saved to the database.
+2025-05-08 21:30:16,169 - INFO - Scraping full text from https://techcrunch.com/2025/05/07/instacart-ceo-fidji-simo-is-joining-openai/
+2025-05-08 21:30:17,395 - INFO - Article 'Instacart CEO Fidji Simo is joining OpenAI' successfully saved to the database.
+2025-05-08 21:30:17,395 - INFO - Skipping article 'Fastino trains AI models on cheap gaming GPUs and just raised $17.5M led by Khosla' as it is not from specified date.
+2025-05-08 21:30:17,396 - INFO - Fetching feed from SkyNews Tech (https://feeds.skynews.com/feeds/rss/technology.xml)
+2025-05-08 21:30:17,957 - INFO - Scraping full text from https://news.sky.com/story/bill-gates-speeds-up-plans-to-give-away-his-fortune-13363857
+2025-05-08 21:30:18,965 - INFO - Article 'Bill Gates speeds up plans to give away his fortune' successfully saved to the database.
+2025-05-08 21:30:18,965 - INFO - Skipping article 'Plans to expand massive offshore windfarm under threat' as it is not from specified date.
+2025-05-08 21:30:18,966 - INFO - Scraping full text from https://news.sky.com/story/could-ai-translate-animal-sounds-into-words-tech-experts-hope-so-13363743
+2025-05-08 21:30:19,672 - INFO - Article 'Could AI translate animal sounds into words? Tech experts hope so' successfully saved to the database.
+2025-05-08 21:30:19,673 - INFO - Skipping article 'Beatles producer's son on AI plans: 'It's like saying you can burgle my house unless I ask you not to'' as it is not from specified date.
+2025-05-08 21:30:19,673 - INFO - Skipping article 'US senators attempt to ban Trump's 'profoundly corrupt' crypto schemes' as it is not from specified date.
+2025-05-08 21:30:19,673 - INFO - Skipping article 'Hosepipe ban looms - as England suffers driest start to spring since 1950s' as it is not from specified date.
+2025-05-08 21:30:19,673 - INFO - Skipping article 'David Attenborough's Ocean film is 'biggest message he's ever told'' as it is not from specified date.
+2025-05-08 21:30:19,673 - INFO - Skipping article 'Vaccine misinformation will lead to more deaths, says ousted US scientist' as it is not from specified date.
+2025-05-08 21:30:19,673 - INFO - Skipping article 'GCSE results to be released digitally in government-backed pilot' as it is not from specified date.
+2025-05-08 21:30:19,673 - INFO - Skipping article 'OpenAI backtracks on plans to take away non-profit's control' as it is not from specified date.
+2025-05-08 21:30:19,673 - INFO - Fetching feed from Wired AI (https://www.wired.com/feed/tag/ai/latest/rss)
+2025-05-08 21:30:20,251 - INFO - Scraping full text from https://www.wired.com/story/singapore-ai-safety-global-consensus/
+2025-05-08 21:30:22,095 - INFO - Article 'Singapore’s Vision for AI Safety Bridges the US-China Divide' successfully saved to the database.
+2025-05-08 21:30:22,095 - INFO - Skipping article 'OpenAI and the FDA Are Holding Talks About Using AI In Drug Evaluation' as it is not from specified date.
+2025-05-08 21:30:22,095 - INFO - Skipping article 'Amazon Has Made a Robot With a Sense of Touch' as it is not from specified date.
+2025-05-08 21:30:22,095 - INFO - Skipping article 'OpenAI Backs Down on Restructuring Amid Pushback' as it is not from specified date.
+2025-05-08 21:30:22,095 - INFO - Skipping article 'Take a Tour of All the Essential Features in ChatGPT' as it is not from specified date.
+2025-05-08 21:30:22,095 - INFO - Skipping article 'The Dream of the Metaverse Is Dying. Manufacturing Is Keeping It Alive' as it is not from specified date.
+2025-05-08 21:30:22,095 - INFO - Skipping article 'DOGE Is in Its AI Era' as it is not from specified date.
+2025-05-08 21:30:22,095 - INFO - Skipping article 'A DOGE Recruiter Is Staffing a Project to Deploy AI Agents Across the US Government' as it is not from specified date.
+2025-05-08 21:30:22,095 - INFO - Skipping article 'Dozens of YouTube Channels Are Showing AI-Generated Cartoon Gore and Fetish Content' as it is not from specified date.
+2025-05-08 21:30:22,095 - INFO - Skipping article 'The Climate Crisis Threatens Supply Chains. Manufacturers Hope AI Can Help' as it is not from specified date.
+2025-05-08 21:30:22,095 - INFO - Fetching feed from Wired Bussiness (https://www.wired.com/feed/category/business/latest/rss)
+2025-05-08 21:30:22,842 - INFO - Scraping full text from https://www.wired.com/story/donald-trumps-uk-trade-deal-could-secure-jaguars-resurrection/
+2025-05-08 21:30:24,510 - INFO - Article 'Donald Trump’s UK Trade Deal Could Secure Jaguar’s Resurrection' successfully saved to the database.
+2025-05-08 21:30:24,511 - INFO - Skipping duplicate article 'Singapore’s Vision for AI Safety Bridges the US-China Divide'.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'A ‘Trump Card Visa’ Is Already Showing Up in Immigration Forms' as it is not from specified date.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'OpenAI and the FDA Are Holding Talks About Using AI In Drug Evaluation' as it is not from specified date.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'Amazon Has Made a Robot With a Sense of Touch' as it is not from specified date.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'Trump’s Tariffs Are Threatening America’s Apple Juice Supply Chain' as it is not from specified date.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'The Future of Manufacturing Might Be in Space' as it is not from specified date.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'OpenAI Backs Down on Restructuring Amid Pushback' as it is not from specified date.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'Shein Bet Big on Donald Trump. It Lost Big, Too' as it is not from specified date.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'The Dream of the Metaverse Is Dying. Manufacturing Is Keeping It Alive' as it is not from specified date.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'Rejoice! Carmakers Are Embracing Physical Buttons Again' as it is not from specified date.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'Small Packages From Shein and Temu Are Now Subject to US Tariffs. Here’s What to Know' as it is not from specified date.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'Welcome to Sam Altman’s Orb Store' as it is not from specified date.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'A DOGE Recruiter Is Staffing a Project to Deploy AI Agents Across the US Government' as it is not from specified date.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'As Trump’s Family Crypto Business Gains Steam, Ethical Concerns Mount' as it is not from specified date.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'Brendan Carr Is Turning the FCC Into MAGA’s Censoring Machine' as it is not from specified date.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'The Climate Crisis Threatens Supply Chains. Manufacturers Hope AI Can Help' as it is not from specified date.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'Inside the Battle Over OpenAI’s Corporate Restructuring' as it is not from specified date.
+2025-05-08 21:30:24,512 - INFO - Skipping article 'Temu Blocks US Shoppers From Seeing Products Shipped From China' as it is not from specified date.
+2025-05-08 21:30:24,513 - INFO - Skipping article 'A Judge Says Meta’s AI Copyright Case Is About ‘the Next Taylor Swift’' as it is not from specified date.
+2025-05-08 21:30:58,853 - INFO - Summary generated and saved for 2025-05-08.
+2025-05-08 22:10:50,846 - INFO - Fetching feed from TechCrunch All (https://techcrunch.com/feed/)
+2025-05-08 22:10:51,164 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/ex-synapse-ceo-reportedly-trying-to-raise-100m-for-his-new-humanoid-robotics-venture/
+2025-05-08 22:10:52,117 - INFO - Article 'Ex-Synapse CEO reportedly trying to raise $100M for his new humanoid robotics venture' successfully saved to the database.
+2025-05-08 22:10:52,118 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/social-media-startup-fizz-sues-instacart-and-partiful-for-trademark-infringement-over-new-fizz-app/
+2025-05-08 22:10:53,003 - INFO - Article 'Social media startup Fizz sues Instacart and Partiful for trademark infringement over new Fizz app' successfully saved to the database.
+2025-05-08 22:10:53,004 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/meta-taps-former-google-deepmind-director-to-lead-its-ai-research-lab/
+2025-05-08 22:10:53,846 - INFO - Article 'Meta taps former Google DeepMind director to lead its AI research lab' successfully saved to the database.
+2025-05-08 22:10:53,847 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/google-launches-implicit-caching-to-make-accessing-its-latest-ai-models-cheaper/
+2025-05-08 22:10:54,734 - INFO - Article 'Google launches ‘implicit caching’ to make accessing its latest AI models cheaper' successfully saved to the database.
+2025-05-08 22:10:54,736 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/instagram-threads-is-getting-video-ads/
+2025-05-08 22:10:55,724 - INFO - Article 'Instagram Threads is getting video ads' successfully saved to the database.
+2025-05-08 22:10:55,725 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/powerschool-paid-a-hackers-ransom-but-now-schools-say-they-are-being-extorted/
+2025-05-08 22:10:56,710 - INFO - Article 'PowerSchool paid a hacker’s ransom, but now schools say they are being extorted' successfully saved to the database.
+2025-05-08 22:10:56,711 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/google-rolls-out-ai-tools-to-protect-chrome-users-against-scams/
+2025-05-08 22:10:57,616 - INFO - Article 'Google rolls out AI tools to protect Chrome users against scams' successfully saved to the database.
+2025-05-08 22:10:57,617 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/chinas-geely-moves-to-take-ev-startup-zeekr-private-amid-trade-war-with-us/
+2025-05-08 22:10:58,500 - INFO - Article 'China’s Geely moves to take EV startup Zeekr private amid trade war with US' successfully saved to the database.
+2025-05-08 22:10:58,501 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/exhibit-your-startup-at-techcrunch-sessions-ai-while-you-still-can/
+2025-05-08 22:10:59,376 - INFO - Article 'Exhibit your startup at TechCrunch Sessions: AI while you still can!' successfully saved to the database.
+2025-05-08 22:10:59,377 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/starlinks-launch-in-india-now-a-matter-of-when-not-if/
+2025-05-08 22:11:00,226 - INFO - Article 'Starlink’s launch in India now a matter of when, not if' successfully saved to the database.
+2025-05-08 22:11:00,227 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/clay-authorizes-employee-tender-at-a-1-5b-valuation-led-by-sequoia/
+2025-05-08 22:11:01,294 - INFO - Article 'Sequoia leads $1.5B tender offer for sales automation startup Clay' successfully saved to the database.
+2025-05-08 22:11:01,295 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/openai-launches-a-data-residency-program-in-asia/
+2025-05-08 22:11:02,106 - INFO - Article 'OpenAI launches a data residency program in Asia' successfully saved to the database.
+2025-05-08 22:11:02,107 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/bill-gates-tells-his-foundation-to-spend-it-all-by-2045/
+2025-05-08 22:11:02,970 - INFO - Article 'Bill Gates tells his foundation to spend it all by 2045' successfully saved to the database.
+2025-05-08 22:11:02,972 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/match-to-lay-off-13-of-staff/
+2025-05-08 22:11:03,796 - INFO - Article 'Match to lay off 13% of staff' successfully saved to the database.
+2025-05-08 22:11:03,797 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/amazons-newest-ai-tool-is-designed-to-enhance-product-listings/
+2025-05-08 22:11:04,609 - INFO - Article 'Amazon’s newest AI tool is designed to enhance product listings' successfully saved to the database.
+2025-05-08 22:11:04,610 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/reddit-intros-new-profile-tools-for-business-customers/
+2025-05-08 22:11:05,488 - INFO - Article 'Reddit intros new profile tools for its business customers' successfully saved to the database.
+2025-05-08 22:11:05,489 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/asking-chatbots-for-short-answers-can-increase-hallucinations-study-finds/
+2025-05-08 22:11:06,334 - INFO - Article 'Asking chatbots for short answers can increase hallucinations, study finds' successfully saved to the database.
+2025-05-08 22:11:06,335 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/vc-firm-insight-partners-confirms-personal-data-stolen-during-january-hack/
+2025-05-08 22:11:07,176 - INFO - Article 'VC firm Insight Partners confirms personal data stolen during January hack' successfully saved to the database.
+2025-05-08 22:11:07,177 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/hims-hers-ceo-turned-to-the-autonomous-vehicle-industry-to-find-an-ai-savvy-exec/
+2025-05-08 22:11:08,068 - INFO - Article 'Why Hims & Hers turned to the autonomous vehicle industry to find an AI-savvy CTO' successfully saved to the database.
+2025-05-08 22:11:08,069 - INFO - Scraping full text from https://techcrunch.com/2025/05/08/apple-urges-court-to-suspend-ruling-that-bars-it-from-taking-a-cut-on-external-app-payments/
+2025-05-08 22:11:08,925 - INFO - Article 'Apple tries to delay ruling that bars it from taking a cut on external app payments' successfully saved to the database.
+2025-05-08 22:11:08,925 - INFO - Fetching feed from SkyNews Tech (https://feeds.skynews.com/feeds/rss/technology.xml)
+2025-05-08 22:11:09,864 - INFO - Scraping full text from https://news.sky.com/story/bill-gates-speeds-up-plans-to-give-away-his-fortune-13363857
+2025-05-08 22:11:10,755 - INFO - Article 'Bill Gates speeds up plans to give away his fortune' successfully saved to the database.
+2025-05-08 22:11:10,755 - INFO - Skipping article 'Plans to expand massive offshore windfarm under threat' as it is not from specified date.
+2025-05-08 22:11:10,756 - INFO - Scraping full text from https://news.sky.com/story/could-ai-translate-animal-sounds-into-words-tech-experts-hope-so-13363743
+2025-05-08 22:11:11,430 - INFO - Article 'Could AI translate animal sounds into words? Tech experts hope so' successfully saved to the database.
+2025-05-08 22:11:11,430 - INFO - Skipping article 'Beatles producer's son on AI plans: 'It's like saying you can burgle my house unless I ask you not to'' as it is not from specified date.
+2025-05-08 22:11:11,430 - INFO - Skipping article 'US senators attempt to ban Trump's 'profoundly corrupt' crypto schemes' as it is not from specified date.
+2025-05-08 22:11:11,430 - INFO - Skipping article 'Hosepipe ban looms - as England suffers driest start to spring since 1950s' as it is not from specified date.
+2025-05-08 22:11:11,430 - INFO - Skipping article 'David Attenborough's Ocean film is 'biggest message he's ever told'' as it is not from specified date.
+2025-05-08 22:11:11,430 - INFO - Skipping article 'Vaccine misinformation will lead to more deaths, says ousted US scientist' as it is not from specified date.
+2025-05-08 22:11:11,430 - INFO - Skipping article 'GCSE results to be released digitally in government-backed pilot' as it is not from specified date.
+2025-05-08 22:11:11,430 - INFO - Skipping article 'OpenAI backtracks on plans to take away non-profit's control' as it is not from specified date.
+2025-05-08 22:11:11,430 - INFO - Fetching feed from ArsTechnica Tech (https://feeds.arstechnica.com/arstechnica/technology-lab)
+2025-05-08 22:11:11,896 - INFO - Scraping full text from https://arstechnica.com/ai/2025/05/trump-admin-to-roll-back-bidens-ai-chip-restrictions/
+2025-05-08 22:11:14,690 - INFO - Article 'Trump admin to roll back Biden’s AI chip restrictions' successfully saved to the database.
+2025-05-08 22:11:14,690 - INFO - Skipping article 'WhatsApp provides no cryptographic management for group messages' as it is not from specified date.
+2025-05-08 22:11:14,690 - INFO - Skipping article 'VMware perpetual license holders receive cease-and-desist letters from Broadcom' as it is not from specified date.
+2025-05-08 22:11:14,690 - INFO - Skipping article 'Jury orders NSO to pay $167 million for hacking WhatsApp users' as it is not from specified date.
+2025-05-08 22:11:14,690 - INFO - Skipping article 'Data centers say Trump’s crackdown on renewables bad for business, AI' as it is not from specified date.
+2025-05-08 22:11:14,691 - INFO - Skipping article 'Man pleads guilty to using malicious AI software to hack Disney employee' as it is not from specified date.
+2025-05-08 22:11:14,691 - INFO - Skipping article 'Signal clone used by Trump official stops operations after report it was hacked' as it is not from specified date.
+2025-05-08 22:11:14,691 - INFO - Skipping article 'OpenAI scraps controversial plan to become for-profit after mounting pressure' as it is not from specified date.
+2025-05-08 22:11:14,691 - INFO - Skipping article 'Hundreds of e-commerce sites hacked in supply-chain attack' as it is not from specified date.
+2025-05-08 22:11:14,691 - INFO - Skipping article 'Microsoft’s new “passwordless by default” is great but comes at a cost' as it is not from specified date.
+2025-05-08 22:11:14,691 - INFO - Skipping article 'Claude’s AI research mode now runs for up to 45 minutes before delivering reports' as it is not from specified date.
+2025-05-08 22:11:14,691 - INFO - Skipping article 'Time saved by AI offset by new work created, study suggests' as it is not from specified date.
+2025-05-08 22:11:14,691 - INFO - Skipping article 'Why MFA is getting easier to bypass and what to do about it' as it is not from specified date.
+2025-05-08 22:11:14,691 - INFO - Skipping article 'Windows RDP lets you log in using revoked passwords. Microsoft is OK with that.' as it is not from specified date.
+2025-05-08 22:11:14,691 - INFO - Skipping article 'Millions of Apple Airplay-enabled devices can be hacked via Wi-Fi' as it is not from specified date.
+2025-05-08 22:11:14,691 - INFO - Skipping article 'The end of an AI that shocked the world: OpenAI retires GPT-4' as it is not from specified date.
+2025-05-08 22:11:14,691 - INFO - Skipping article 'Trump admin lashes out as Amazon considers displaying tariff costs on its sites' as it is not from specified date.
+2025-05-08 22:11:14,691 - INFO - Skipping article 'AI-generated code could be a disaster for the software supply chain. Here’s why.' as it is not from specified date.
+2025-05-08 22:11:14,691 - INFO - Skipping article 'ChatGPT goes shopping with new product-browsing feature' as it is not from specified date.
+2025-05-08 22:11:14,691 - INFO - Skipping article 'Backblaze responds to claims of “sham accounting,” customer backups at risk' as it is not from specified date.
+2025-05-08 22:11:57,073 - INFO - Summary generated and saved for 2025-05-08.
