@@ -3655,3 +3655,951 @@
 2025-05-08 22:11:14,691 - INFO - Skipping article 'ChatGPT goes shopping with new product-browsing feature' as it is not from specified date.
 2025-05-08 22:11:14,691 - INFO - Skipping article 'Backblaze responds to claims of “sham accounting,” customer backups at risk' as it is not from specified date.
 2025-05-08 22:11:57,073 - INFO - Summary generated and saved for 2025-05-08.
+2025-05-09 22:11:33,347 - INFO - Fetching feed from TechCrunch All (https://techcrunch.com/feed/)
+2025-05-09 22:11:33,805 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/the-department-of-labor-just-dropped-its-investigation-into-scale-ai/
+2025-05-09 22:11:34,616 - INFO - Article 'The Department of Labor just dropped its investigation into Scale AI' successfully saved to the database.
+2025-05-09 22:11:34,617 - INFO - Scraping full text from https://techcrunch.com/video/greece-is-having-a-big-tech-moment/
+2025-05-09 22:11:35,452 - INFO - Article 'Greece is having a Big Tech moment' successfully saved to the database.
+2025-05-09 22:11:35,453 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/techcrunch-mobility-tesla-denied-robotaxi-trademark-aurora-loses-a-co-founder-and-tariffs-start-to-take-a-toll/
+2025-05-09 22:11:36,288 - INFO - Article 'TechCrunch Mobility: Tesla denied ‘Robotaxi’ trademark, Aurora loses a co-founder, and tariffs start to take a toll' successfully saved to the database.
+2025-05-09 22:11:36,289 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/epic-games-and-spotify-test-apples-new-app-store-rules/
+2025-05-09 22:11:37,112 - INFO - Article 'Epic Games and Spotify test Apple’s new App Store rules' successfully saved to the database.
+2025-05-09 22:11:37,113 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/serena-backed-health-tech-lands-first-fda-approval-for-home-cervical-cancer-test/
+2025-05-09 22:11:38,105 - INFO - Article 'Serena-backed health tech lands first FDA approval for home cervical cancer test' successfully saved to the database.
+2025-05-09 22:11:38,106 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/fbi-and-dutch-police-seize-and-shut-down-botnet-of-hacked-routers/
+2025-05-09 22:11:38,939 - INFO - Article 'FBI and Dutch police seize and shut down botnet of hacked routers' successfully saved to the database.
+2025-05-09 22:11:38,940 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/soundcloud-changes-policies-to-allow-ai-training-on-user-content/
+2025-05-09 22:11:39,802 - INFO - Article 'SoundCloud changes policies to allow AI training on user content' successfully saved to the database.
+2025-05-09 22:11:39,803 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/deepseek-everything-you-need-to-know-about-the-ai-chatbot-app/
+2025-05-09 22:11:40,593 - INFO - Article 'DeepSeek: Everything you need to know about the AI chatbot app' successfully saved to the database.
+2025-05-09 22:11:40,594 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/startups-weekly-different-paths-on-the-road-to-liquidity/
+2025-05-09 22:11:41,461 - INFO - Article 'Startups Weekly: Different paths on the road to liquidity' successfully saved to the database.
+2025-05-09 22:11:41,463 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/rippling-raises-450m-at-a-16-8b-valuation-reveals-yc-is-a-customer/
+2025-05-09 22:11:42,284 - INFO - Article 'Rippling raises $450M at a $16.8B valuation, reveals YC is a customer' successfully saved to the database.
+2025-05-09 22:11:42,286 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/tech-layoffs-2025-list/
+2025-05-09 22:11:43,268 - INFO - Article 'A comprehensive list of 2025 tech layoffs' successfully saved to the database.
+2025-05-09 22:11:43,268 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/microsoft-build-2025-how-to-watch-this-years-conference/
+2025-05-09 22:11:44,062 - INFO - Article 'Microsoft Build 2025: How to watch this year’s conference' successfully saved to the database.
+2025-05-09 22:11:44,063 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/google-inks-deal-to-develop-1-8-gw-of-advanced-nuclear-power/
+2025-05-09 22:11:44,928 - INFO - Article 'Google inks deal to develop 1.8 GW of advanced nuclear power' successfully saved to the database.
+2025-05-09 22:11:44,929 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/coreweave-reportedly-looks-to-raise-1-5b-in-debt-as-ipo-disappoints/
+2025-05-09 22:11:45,779 - INFO - Article 'CoreWeave reportedly looks to raise $1.5B in debt as IPO disappoints' successfully saved to the database.
+2025-05-09 22:11:45,780 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/x-timelines-arent-updating-for-many-users/
+2025-05-09 22:11:46,604 - INFO - Article 'X timelines aren’t updating for many users' successfully saved to the database.
+2025-05-09 22:11:46,605 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/apple-said-to-be-developing-new-chips-for-smart-glasses-macs-and-more/
+2025-05-09 22:11:47,410 - INFO - Article 'Apple said to be developing new chips for smart glasses, Macs, and more' successfully saved to the database.
+2025-05-09 22:11:47,411 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/florida-bill-requiring-encryption-backdoors-for-social-media-accounts-has-failed/
+2025-05-09 22:11:48,245 - INFO - Article 'Florida bill requiring encryption backdoors for social media accounts has failed' successfully saved to the database.
+2025-05-09 22:11:48,246 - INFO - Scraping full text from https://techcrunch.com/2025/05/09/this-is-your-last-chance-to-exhibit-at-techcrunch-sessions-ai-dont-miss-out/
+2025-05-09 22:11:49,042 - INFO - Article 'This is your last chance to exhibit at TechCrunch Sessions: AI — don’t miss out' successfully saved to the database.
+2025-05-09 22:11:49,042 - INFO - Skipping article 'One of Elon Musk’s longtime VCs is suing his former employer after allegedly being fired' as it is not from specified date.
+2025-05-09 22:11:49,042 - INFO - Skipping article 'Microsoft employees are banned from using DeepSeek app, president says' as it is not from specified date.
+2025-05-09 22:11:49,042 - INFO - Fetching feed from SkyNews Tech (https://feeds.skynews.com/feeds/rss/technology.xml)
+2025-05-09 22:11:49,586 - INFO - Scraping full text from https://news.sky.com/story/first-moon-rocks-on-earth-in-half-a-century-arrive-in-uk-13364399
+2025-05-09 22:11:50,457 - INFO - Article 'First moon rocks on Earth in half a century arrive in UK' successfully saved to the database.
+2025-05-09 22:11:50,457 - INFO - Skipping article 'Bill Gates speeds up plans to give away his fortune' as it is not from specified date.
+2025-05-09 22:11:50,457 - INFO - Skipping article 'A ban on chlorinated chicken has protected UK consumers - and farmers' as it is not from specified date.
+2025-05-09 22:11:50,458 - INFO - Skipping article 'Plans to expand massive offshore windfarm under threat' as it is not from specified date.
+2025-05-09 22:11:50,458 - INFO - Skipping article 'Could AI translate animal sounds into words? Tech experts hope so' as it is not from specified date.
+2025-05-09 22:11:50,458 - INFO - Skipping article 'Beatles producer's son on AI plans: 'It's like saying you can burgle my house unless I ask you not to'' as it is not from specified date.
+2025-05-09 22:11:50,458 - INFO - Skipping article 'US senators attempt to ban Trump's 'profoundly corrupt' crypto schemes' as it is not from specified date.
+2025-05-09 22:11:50,458 - INFO - Skipping article 'Hosepipe ban looms - as England suffers driest start to spring since 1950s' as it is not from specified date.
+2025-05-09 22:11:50,458 - INFO - Skipping article 'David Attenborough's Ocean film is 'biggest message he's ever told'' as it is not from specified date.
+2025-05-09 22:11:50,458 - INFO - Skipping article 'Vaccine misinformation will lead to more deaths, says ousted US scientist' as it is not from specified date.
+2025-05-09 22:11:50,458 - INFO - Fetching feed from ArsTechnica Tech (https://feeds.arstechnica.com/arstechnica/technology-lab)
+2025-05-09 22:11:51,066 - INFO - Skipping article 'AI use damages professional reputation, study suggests' as it is not from specified date.
+2025-05-09 22:11:51,066 - INFO - Skipping article 'Fidji Simo joins OpenAI as new CEO of Applications' as it is not from specified date.
+2025-05-09 22:11:51,066 - INFO - Skipping article 'DOGE software engineer’s computer infected by info-stealing malware' as it is not from specified date.
+2025-05-09 22:11:51,066 - INFO - Skipping article 'Trump admin to roll back Biden’s AI chip restrictions' as it is not from specified date.
+2025-05-09 22:11:51,066 - INFO - Skipping article 'WhatsApp provides no cryptographic management for group messages' as it is not from specified date.
+2025-05-09 22:11:51,066 - INFO - Skipping article 'VMware perpetual license holders receive cease-and-desist letters from Broadcom' as it is not from specified date.
+2025-05-09 22:11:51,066 - INFO - Skipping article 'Jury orders NSO to pay $167 million for hacking WhatsApp users' as it is not from specified date.
+2025-05-09 22:11:51,066 - INFO - Skipping article 'Data centers say Trump’s crackdown on renewables bad for business, AI' as it is not from specified date.
+2025-05-09 22:11:51,066 - INFO - Skipping article 'Man pleads guilty to using malicious AI software to hack Disney employee' as it is not from specified date.
+2025-05-09 22:11:51,066 - INFO - Skipping article 'Signal clone used by Trump official stops operations after report it was hacked' as it is not from specified date.
+2025-05-09 22:11:51,066 - INFO - Skipping article 'OpenAI scraps controversial plan to become for-profit after mounting pressure' as it is not from specified date.
+2025-05-09 22:11:51,066 - INFO - Skipping article 'Hundreds of e-commerce sites hacked in supply-chain attack' as it is not from specified date.
+2025-05-09 22:11:51,066 - INFO - Skipping article 'Microsoft’s new “passwordless by default” is great but comes at a cost' as it is not from specified date.
+2025-05-09 22:11:51,066 - INFO - Skipping article 'Claude’s AI research mode now runs for up to 45 minutes before delivering reports' as it is not from specified date.
+2025-05-09 22:11:51,066 - INFO - Skipping article 'Time saved by AI offset by new work created, study suggests' as it is not from specified date.
+2025-05-09 22:11:51,066 - INFO - Skipping article 'Why MFA is getting easier to bypass and what to do about it' as it is not from specified date.
+2025-05-09 22:11:51,066 - INFO - Skipping article 'Windows RDP lets you log in using revoked passwords. Microsoft is OK with that.' as it is not from specified date.
+2025-05-09 22:11:51,067 - INFO - Skipping article 'Millions of Apple Airplay-enabled devices can be hacked via Wi-Fi' as it is not from specified date.
+2025-05-09 22:11:51,067 - INFO - Skipping article 'The end of an AI that shocked the world: OpenAI retires GPT-4' as it is not from specified date.
+2025-05-09 22:11:51,067 - INFO - Skipping article 'Trump admin lashes out as Amazon considers displaying tariff costs on its sites' as it is not from specified date.
+2025-05-09 22:12:29,510 - INFO - Summary generated and saved for 2025-05-09.
+2025-05-10 15:52:36,274 - INFO - Fetching feed from BBC WORLD (https://feeds.bbci.co.uk/news/world/rss.xml)
+2025-05-10 15:52:36,824 - INFO - Scraping full text from https://www.bbc.com/news/articles/c87j03x9px2o
+2025-05-10 15:52:37,546 - INFO - Article 'European leaders call Trump to discuss 30-day Russia-Ukraine ceasefire' successfully saved to the ArticlePolitics.
+2025-05-10 15:52:37,547 - INFO - Scraping full text from https://www.bbc.com/news/articles/c0qgz18glljo
+2025-05-10 15:52:38,449 - INFO - Article 'Trump administration considers suspending habeas corpus' successfully saved to the ArticlePolitics.
+2025-05-10 15:52:38,450 - INFO - Scraping full text from https://www.bbc.com/news/articles/clyglw20lg2o
+2025-05-10 15:52:39,126 - INFO - Article 'Maga says Pope Leo may be American, but he's not 'America first'' successfully saved to the ArticlePolitics.
+2025-05-10 15:52:39,127 - INFO - Scraping full text from https://www.bbc.com/news/articles/c1kv7v3z70jo
+2025-05-10 15:52:39,799 - INFO - Article 'Taylor Swift criticises Lively-Baldoni court summons' successfully saved to the ArticlePolitics.
+2025-05-10 15:52:39,800 - INFO - Scraping full text from https://www.bbc.com/news/articles/c2e3d888p44o
+2025-05-10 15:52:40,608 - INFO - Article 'How will Pope Leo lead? His first days may yield clues' successfully saved to the ArticlePolitics.
+2025-05-10 15:52:40,609 - INFO - Scraping full text from https://www.bbc.com/news/articles/c071elp1rv1o
+2025-05-10 15:52:41,261 - INFO - Article 'Elton John and Dua Lipa seek protection from AI' successfully saved to the ArticlePolitics.
+2025-05-10 15:52:41,261 - INFO - Skipping article 'Mexico sues Google over 'Gulf of America' name change' as it is not from specified date.
+2025-05-10 15:52:41,262 - INFO - Scraping full text from https://www.bbc.com/news/articles/cp3nd0dwlpgo
+2025-05-10 15:52:42,209 - INFO - Article 'Turkish Tufts University student released from immigration facility' successfully saved to the ArticlePolitics.
+2025-05-10 15:52:42,209 - INFO - Skipping article 'US confirms plan for private firms to deliver Gaza aid despite UN alarm' as it is not from specified date.
+2025-05-10 15:52:42,209 - INFO - Skipping article 'Xi shows he wants to be close to Putin - but not too close' as it is not from specified date.
+2025-05-10 15:52:42,210 - INFO - Scraping full text from https://www.bbc.com/news/articles/c6293qgd46zo
+2025-05-10 15:52:42,908 - INFO - Article 'No water, no power - Port Sudan reeling after week of attacks' successfully saved to the ArticlePolitics.
+2025-05-10 15:52:42,908 - INFO - Skipping article 'Moon dust 'rarer than gold' arrives in UK from China' as it is not from specified date.
+2025-05-10 15:52:42,909 - INFO - Scraping full text from https://www.bbc.com/news/articles/c4g2j45d5zeo
+2025-05-10 15:52:43,721 - INFO - Article ''I freaked out and spent $400 online': US consumers on cheap shipping changes' successfully saved to the ArticlePolitics.
+2025-05-10 15:52:43,721 - INFO - Scraping full text from https://www.bbc.com/news/articles/c9vg8k4zxk9o
+2025-05-10 15:52:44,510 - INFO - Article 'Witchcraft, innuendo and moody goth boys: Your guide to all 37 Eurovision songs' successfully saved to the ArticlePolitics.
+2025-05-10 15:52:44,510 - INFO - Skipping article 'The US and China are finally talking. Why now?' as it is not from specified date.
+2025-05-10 15:52:44,510 - INFO - Skipping article 'How can India and Pakistan find a way to de-escalate?' as it is not from specified date.
+2025-05-10 15:52:44,510 - INFO - Skipping article 'Hong Kong pro-China informer: 'Why I've reported dozens of people to police'' as it is not from specified date.
+2025-05-10 15:52:44,510 - INFO - Scraping full text from https://www.bbc.com/news/videos/cj0949qnlz2o
+2025-05-10 15:52:47,273 - INFO - Article 'White House 'actively looking at' suspending habeas corpus' successfully saved to the ArticlePolitics.
+2025-05-10 15:52:47,273 - INFO - Skipping article 'Watch: Steve Rosenberg reports from Russia's Red Square on Victory Day' as it is not from specified date.
+2025-05-10 15:52:47,273 - INFO - Skipping article 'Watch: Trump misspeaks and calls toy firm Mattel a country' as it is not from specified date.
+2025-05-10 15:52:47,273 - INFO - Skipping article 'Three things we learned from Putin's Red Square parade' as it is not from specified date.
+2025-05-10 15:52:47,273 - INFO - Skipping article 'Watch: Pope Leo XIV's first Mass as pontiff' as it is not from specified date.
+2025-05-10 15:52:47,273 - INFO - Fetching feed from Al Jazeera (https://www.aljazeera.com/xml/rss)
+2025-05-10 15:52:47,943 - INFO - Fetching feed from Diplomat (https://thediplomat.com/feed/)
+2025-05-10 15:52:49,542 - INFO - Skipping article 'The India-Pakistan Clashes of 2025: Why Things Are Different (And More Dangerous) This Time' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'The CIA Is Making a New Push to Recruit Chinese Officials. Will It Work?' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'Vietnam and the Contested Memory of April 30, 1975' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'Xi, Putin Vow to ‘Defend the Victorious Outcome of WWII’ – by Countering the US' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'The Japan-US Alliance: Has the ‘Bottle Cap’ Come Off?' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'Northern Myanmar Poses a Challenge to China’s Critical Minerals Strategy' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'The Politics of Regional Gravity: South Korea’s Space Future Caught in Domestic Politics' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'India’s Indus Waters Treaty Suspension: What Happens Next?' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'Revealed: North Korea’s Diplomatic Missions Double as Trade Brokers' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'Under the Eternal Blue Sky: How Mongolian Families Are Reimagining Ger Living' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'The Dimash Phenomenon: Kazakhstan’s Soft Power' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'PACE Issues Declaration on Afghan Women in Central Asia' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'NPP Sweeps Sri Lanka’s Local Elections, But Vote Share Plummets' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article '50 Years After the War, Vietnam’s Greatest Challenge May Lie in the Realm of Memory' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'Marcos-Duterte Feud Looms Large as Philippines Approaches May 12 Midterms' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'Myanmar Junta Boss to Attend World War II Victory Parade in Moscow' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'The Duality in China’s Security Relations With Russia' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'The Strategic Misreading of Taiwan Is a Dangerous Oversight' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'Connectivity and Energy Cooperation Key to Boosting India-Azerbaijan Relations' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'Does Southeast Asia Lead the World in Human Flourishing?' as it is not from specified date.
+2025-05-10 15:52:49,542 - INFO - Skipping article 'What Can Asia and the Pacific Expect From Australia’s New Government?' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Russian Raids Target Central Asians in Cafes, Bathhouses' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Why Did Pyongyang and Moscow Finally Admit North Koreans Are Fighting in the Russia-Ukraine War?' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Vietnamese Exports to the US Reach New Post-COVID High' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Indonesian Cinema Booms as Industry Expands Beyond Classic Horror Formula' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'The Survival of Cambodian Press Freedom Requires More Than Funding' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Australia’s PM Albanese Bound For Indonesia on First Post-election Trip' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'The PhilHealth Supreme Court Case, Explained' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Russia’s Plans Are Bigger Than Conflict With the West or Camaraderie With China' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Why Beijing Is Worried About Chinese People’s ‘Well-being’' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'World Bank-IMF Spring Meetings Send Signal to South Asia: Fix the Fundamentals' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article '‘Publish or Perish’ Culture Fueling Research Misconduct in India' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'In Retaliation for Pahalgam Attack, India Strikes Pakistan-based Terror Camps' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Lee Jae-myung’s Presidential Bid Is Safe After Court’s Decision to Postpone Trials' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Amid India-Pakistan Clashes, China Faces a Difficult Balancing Act' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Political Parties Proliferate in Post-Hasina Bangladesh' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Inside Uzbekistan’s Private University Boom' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Solomon Islands PM Avoids No Confidence Vote, But Is Potentially Weakened' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Saudi Arabia Suspends E-Visas for Citizens of Tajikistan, Uzbekistan' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Pakistan Prepares Counterblow as India’s Airstrikes Raise War Fears' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Vietnam’s Centralization Drive Faces External Economic Headwinds' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Myanmar Military Announces Further Extension of Earthquake Ceasefire' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Could Taiwan Survive an EMP Attack by China?' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Australia’s Election Result Offers Certainty to a Region in Flux' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Indonesia to Loosen Local Content Rules Amid US Tariff Negotiations' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Post-Election Canada and Australia Face Similar Security Challenges – and a Shared Opportunity' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Shipbuilding Industry Takes Center Stage in US Relations With Japan and South Korea' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Deglobalization and International Investment Trends' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'How Japan’s $1.1 Trillion in US Treasuries Became a Strategic Lever in the New Tariff War' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'Now or Never: Australia’s Albanese Must Deliver for Climate Justice' as it is not from specified date.
+2025-05-10 15:52:49,543 - INFO - Skipping article 'How a Supreme Court Ruling Upended South Korea’s Presidential Election' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'What’s the Caste Census That India’s PM Modi Agreed to Under Opposition Pressure?' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'Bangladesh’s Sisyphean Battle With Its Past' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'LDP’s Takaichi Proposes a ‘Quasi-Alliance’ While in Taiwan' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'Why Australia Rejected the Liberal Party' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'Gateway to Corruption: Cambodia’s Education-Crime Nexus' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'Parsing Indonesia’s Border Diplomacy Strategy' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'Sean Turnell on Myanmar’s Star-crossed Economic Reforms' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'US Announces Sanctions Against Myanmar Military for ‘Facilitating’ Cyber Scams' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'Pandora’s Box? Bangladesh and the Rakhine Humanitarian Corridor' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'Cambodian Court Sentences Prominent Labor Activist to 4 Years in Prison' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'Locating the India-Pakistan Crisis on Herman Kahn’s Escalation Ladder' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'In First, China Coast Guard Helicopter Enters Japan’s Airspace Near Disputed Islands, Escalating Tensions' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'Pakistan Threatens to Suspend Participation in the Simla Agreement' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'Labor Routs the Coalition as Australia’s Voters Reject Dutton’s Undercooked Offering' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'Bangladesh: Old Myths, New Country' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'As Global Trade Tensions Rise, Ruto’s Visit to China Shows How Africa Can Stay Ahead' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'Could Taiwan Hold a New Round of Elections?' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'Kim Moon-soo Elected as PPP’s Presidential Candidate' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'After Pahalgam, India Has a New Kashmir Strategy: Collective Punishment' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'Vietnam’s PM Says US Tariffs Threaten Global Supply Chains, Growth' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'Empowering Parents to Protect Children Online in Asia' as it is not from specified date.
+2025-05-10 15:52:49,544 - INFO - Skipping article 'Ecuador’s Incoming Government Faces Difficult Choices Regarding China' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'Singapore’s PAP Scores Decisive Victory in General Election' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'Nuclear Weapons Are No Silver Bullet for Australia’s Strategic Predicament' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'Trump’s Art of the TikTok Deal Should be Carefully Scrutinized by Congress' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'What Could Japan’s Coast Guard Do in an Armed Attack?' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'The Challenge to Japan’s Nuclear Restart' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'Donald Trump’s Long Shadow Over Australia’s Election' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'West by Sea: Why the Pacific’s Security Should Be Anchored in Indo-Pacific Partnerships' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'How US Aid Cuts Are Putting Millions of Lives at Risk' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'Inflection Point: What to Do When the State is the Syndicate?' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'Inside Myanmar’s Civilian-Centered Earthquake Relief Effort' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'Baloch Women are Rising Up – and Going to Prison for It' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'Thai Prosecutors Dismiss Royal Defamation Charge Against American Academic' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'Indonesian Parliament to Ratify Vietnam EEZ Agreement This Month' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'One Small Mistake Could Trigger An Uncontrollable Escalation Between India and Pakistan' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'Rebranding Jamaat: The Rise of the ‘Islamist Left’ in Bangladesh' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'LG’s Exit from a Mega-Battery Project in Indonesia, Explained' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'Philippine Authorities Call Out Alleged Chinese Election Interference' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'Behind the Boom in Hong Kongers ‘Heading North’' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'China’s Coming Diplomatic Blitz in the Americas' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'Does Mongolia Need an Aviation Fuel Deal With Russia?' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'Why the India-US Sonobuoy Co-Production Agreement Matters' as it is not from specified date.
+2025-05-10 15:52:49,545 - INFO - Skipping article 'Walking the Geopolitical Tightrope: South Korea’s High Stakes Bet on AI' as it is not from specified date.
+2025-05-10 15:52:49,546 - INFO - Skipping article 'Protecting the Global Climate Agenda in an Era of China-US Competition' as it is not from specified date.
+2025-05-10 15:53:53,660 - INFO - Summary generated and saved for 2025-05-10.
+2025-05-10 23:03:24,278 - INFO - Fetching feed from TechCrunch All (https://techcrunch.com/feed/)
+2025-05-10 23:03:24,659 - INFO - Scraping full text from https://techcrunch.com/2025/05/10/ftc-delays-enforcement-of-click-to-cancel-rule/
+2025-05-10 23:03:25,437 - INFO - Article 'FTC delays enforcement of click-to-cancel rule' successfully saved to the Article.
+2025-05-10 23:03:25,438 - INFO - Scraping full text from https://techcrunch.com/2025/05/10/week-in-review-instacart-ceo-heads-to-openai/
+2025-05-10 23:03:26,225 - INFO - Article 'Week in Review: Instacart CEO heads to OpenAI' successfully saved to the Article.
+2025-05-10 23:03:26,226 - INFO - Scraping full text from https://techcrunch.com/2025/05/10/google-will-pay-texas-1-4-billion-to-settle-privacy-lawsuits/
+2025-05-10 23:03:26,982 - INFO - Article 'Google will pay Texas $1.4 billion to settle privacy lawsuits' successfully saved to the Article.
+2025-05-10 23:03:26,983 - INFO - Scraping full text from https://techcrunch.com/2025/05/10/openais-enterprise-adoption-appears-to-be-accelerating-at-the-expense-of-rivals/
+2025-05-10 23:03:27,803 - INFO - Article 'OpenAI’s enterprise adoption appears to be accelerating, at the expense of rivals' successfully saved to the Article.
+2025-05-10 23:03:27,804 - INFO - Scraping full text from https://techcrunch.com/2025/05/10/the-near-joy-of-biking-with-ray-ban-meta-glasses/
+2025-05-10 23:03:28,592 - INFO - Article 'The near joy of biking with Ray-Ban Meta glasses' successfully saved to the Article.
+2025-05-10 23:03:28,593 - INFO - Scraping full text from https://techcrunch.com/2025/05/10/a-timeline-of-the-u-s-semiconductor-market-in-2025/
+2025-05-10 23:03:29,282 - INFO - Article 'A timeline of the U.S. semiconductor market in 2025' successfully saved to the Article.
+2025-05-10 23:03:29,283 - INFO - Scraping full text from https://techcrunch.com/2025/05/10/whitney-wolfe-herd-on-burning-out-and-bouncing-bac/
+2025-05-10 23:03:30,103 - INFO - Article 'Whitney Wolfe Herd on burning out —  and bouncing back' successfully saved to the Article.
+2025-05-10 23:03:30,105 - INFO - Scraping full text from https://techcrunch.com/2025/05/10/techcrunch-all-stage-2025-welcomes-boldstart-partner-ellen-chisa-to-talk-early-stage-enterprise-bets/
+2025-05-10 23:03:30,851 - INFO - Article 'TechCrunch All Stage 2025 welcomes Boldstart partner Ellen Chisa to talk early-stage enterprise bets' successfully saved to the Article.
+2025-05-10 23:03:30,852 - INFO - Scraping full text from https://techcrunch.com/2025/05/10/five-things-we-learned-from-whatsapp-vs-nso-group-spyware-lawsuit/
+2025-05-10 23:03:31,514 - INFO - Article 'Five things we learned from WhatsApp vs. NSO Group spyware lawsuit' successfully saved to the Article.
+2025-05-10 23:03:31,515 - INFO - Scraping full text from https://techcrunch.com/2025/05/10/techcrunch-all-stage-2025-prepare-4-vcs-jason-kraus-will-instruct-on-how-to-turn-chaos-into-momentum/
+2025-05-10 23:03:32,289 - INFO - Article 'TechCrunch All Stage 2025: Prepare 4 VC’s Jason Kraus will instruct on how to turn chaos into momentum' successfully saved to the Article.
+2025-05-10 23:03:32,290 - INFO - Skipping article 'Scaling startups in the European market' as it is not from specified date.
+2025-05-10 23:03:32,290 - INFO - Skipping article 'Investing in overlooked European ecosystems' as it is not from specified date.
+2025-05-10 23:03:32,290 - INFO - Skipping article 'The US is reviewing Benchmark’s investment into Chinese AI startup Manus' as it is not from specified date.
+2025-05-10 23:03:32,290 - INFO - Skipping article 'Google I/O 2025: What to expect, including updates to Gemini and Android 16' as it is not from specified date.
+2025-05-10 23:03:32,290 - INFO - Skipping article 'Remember Moviefone? Well, it’s back.' as it is not from specified date.
+2025-05-10 23:03:32,290 - INFO - Skipping article 'These investors are betting on Greece’s founders' as it is not from specified date.
+2025-05-10 23:03:32,290 - INFO - Skipping article 'The Department of Labor just dropped its investigation into Scale AI' as it is not from specified date.
+2025-05-10 23:03:32,290 - INFO - Skipping article 'Greece is having a Big Tech moment' as it is not from specified date.
+2025-05-10 23:03:32,290 - INFO - Skipping article 'TechCrunch Mobility: Tesla denied ‘Robotaxi’ trademark, Aurora loses a co-founder, and tariffs start to take a toll' as it is not from specified date.
+2025-05-10 23:03:32,290 - INFO - Skipping article 'Epic Games and Spotify test Apple’s new App Store rules' as it is not from specified date.
+2025-05-10 23:03:32,290 - INFO - Fetching feed from SkyNews Tech (https://feeds.skynews.com/feeds/rss/technology.xml)
+2025-05-10 23:03:33,032 - INFO - Scraping full text from https://news.sky.com/story/half-tonne-piece-of-soviet-rocket-to-crash-back-down-to-earth-in-coming-days-13365129
+2025-05-10 23:03:33,886 - INFO - Article 'Half-tonne piece of Soviet rocket crashes back through atmosphere' successfully saved to the Article.
+2025-05-10 23:03:33,887 - INFO - Scraping full text from https://news.sky.com/story/pope-leo-highlights-ai-as-challenge-to-humanity-as-he-lays-out-vision-of-papacy-13364946
+2025-05-10 23:03:34,563 - INFO - Article 'Pope highlights AI as challenge to humanity as he lays out vision of papacy' successfully saved to the Article.
+2025-05-10 23:03:34,563 - INFO - Skipping article ''It's illogical to tarnish a pristine area': The communities fighting green energy infrastructure' as it is not from specified date.
+2025-05-10 23:03:34,563 - INFO - Skipping article 'First moon rocks on Earth in half a century arrive in UK' as it is not from specified date.
+2025-05-10 23:03:34,563 - INFO - Skipping article 'Bill Gates speeds up plans to give away his fortune' as it is not from specified date.
+2025-05-10 23:03:34,563 - INFO - Skipping article 'A ban on chlorinated chicken has protected UK consumers - and farmers' as it is not from specified date.
+2025-05-10 23:03:34,564 - INFO - Skipping article 'Plans to expand massive offshore windfarm under threat' as it is not from specified date.
+2025-05-10 23:03:34,564 - INFO - Skipping article 'Could AI translate animal sounds into words? Tech experts hope so' as it is not from specified date.
+2025-05-10 23:03:34,564 - INFO - Skipping article 'Beatles producer's son on AI plans: 'It's like saying you can burgle my house unless I ask you not to'' as it is not from specified date.
+2025-05-10 23:03:34,564 - INFO - Skipping article 'US senators attempt to ban Trump's 'profoundly corrupt' crypto schemes' as it is not from specified date.
+2025-05-10 23:03:34,564 - INFO - Fetching feed from ArsTechnica Tech (https://feeds.arstechnica.com/arstechnica/technology-lab)
+2025-05-10 23:03:35,024 - INFO - Skipping article 'New Lego-building AI creates models that actually stand up in real life' as it is not from specified date.
+2025-05-10 23:03:35,024 - INFO - Skipping article 'AI use damages professional reputation, study suggests' as it is not from specified date.
+2025-05-10 23:03:35,024 - INFO - Skipping article 'Fidji Simo joins OpenAI as new CEO of Applications' as it is not from specified date.
+2025-05-10 23:03:35,024 - INFO - Skipping article 'DOGE software engineer’s computer infected by info-stealing malware' as it is not from specified date.
+2025-05-10 23:03:35,024 - INFO - Skipping article 'Trump admin to roll back Biden’s AI chip restrictions' as it is not from specified date.
+2025-05-10 23:03:35,024 - INFO - Skipping article 'WhatsApp provides no cryptographic management for group messages' as it is not from specified date.
+2025-05-10 23:03:35,025 - INFO - Skipping article 'VMware perpetual license holders receive cease-and-desist letters from Broadcom' as it is not from specified date.
+2025-05-10 23:03:35,025 - INFO - Skipping article 'Jury orders NSO to pay $167 million for hacking WhatsApp users' as it is not from specified date.
+2025-05-10 23:03:35,025 - INFO - Skipping article 'Data centers say Trump’s crackdown on renewables bad for business, AI' as it is not from specified date.
+2025-05-10 23:03:35,025 - INFO - Skipping article 'Man pleads guilty to using malicious AI software to hack Disney employee' as it is not from specified date.
+2025-05-10 23:03:35,025 - INFO - Skipping article 'Signal clone used by Trump official stops operations after report it was hacked' as it is not from specified date.
+2025-05-10 23:03:35,025 - INFO - Skipping article 'OpenAI scraps controversial plan to become for-profit after mounting pressure' as it is not from specified date.
+2025-05-10 23:03:35,025 - INFO - Skipping article 'Hundreds of e-commerce sites hacked in supply-chain attack' as it is not from specified date.
+2025-05-10 23:03:35,025 - INFO - Skipping article 'Microsoft’s new “passwordless by default” is great but comes at a cost' as it is not from specified date.
+2025-05-10 23:03:35,025 - INFO - Skipping article 'Claude’s AI research mode now runs for up to 45 minutes before delivering reports' as it is not from specified date.
+2025-05-10 23:03:35,025 - INFO - Skipping article 'Time saved by AI offset by new work created, study suggests' as it is not from specified date.
+2025-05-10 23:03:35,025 - INFO - Skipping article 'Why MFA is getting easier to bypass and what to do about it' as it is not from specified date.
+2025-05-10 23:03:35,025 - INFO - Skipping article 'Windows RDP lets you log in using revoked passwords. Microsoft is OK with that.' as it is not from specified date.
+2025-05-10 23:03:35,025 - INFO - Skipping article 'Millions of Apple Airplay-enabled devices can be hacked via Wi-Fi' as it is not from specified date.
+2025-05-10 23:03:35,025 - INFO - Skipping article 'The end of an AI that shocked the world: OpenAI retires GPT-4' as it is not from specified date.
+2025-05-10 23:03:50,951 - INFO - Fetching feed from BBC WORLD (https://feeds.bbci.co.uk/news/world/rss.xml)
+2025-05-10 23:03:51,376 - INFO - Scraping full text from https://www.bbc.com/news/articles/c87j03x9px2o
+2025-05-10 23:03:52,172 - INFO - Article 'European leaders pressure Russia over 30-day Ukraine ceasefire' successfully saved to the ArticlePolitics.
+2025-05-10 23:03:52,173 - INFO - Scraping full text from https://www.bbc.com/news/articles/c0qgz18glljo
+2025-05-10 23:03:53,017 - INFO - Article 'Trump administration considers suspending habeas corpus' successfully saved to the ArticlePolitics.
+2025-05-10 23:03:53,018 - INFO - Scraping full text from https://www.bbc.com/news/articles/clyglw20lg2o
+2025-05-10 23:03:53,821 - INFO - Article 'Maga says Pope Leo may be American, but he's not 'America first'' successfully saved to the ArticlePolitics.
+2025-05-10 23:03:53,822 - INFO - Scraping full text from https://www.bbc.com/news/articles/c1kv7v3z70jo
+2025-05-10 23:03:54,758 - INFO - Article 'Taylor Swift criticises Lively-Baldoni court summons' successfully saved to the ArticlePolitics.
+2025-05-10 23:03:54,759 - INFO - Scraping full text from https://www.bbc.com/news/articles/c2e3d888p44o
+2025-05-10 23:03:55,785 - INFO - Article 'How will Pope Leo lead? His first days may yield clues' successfully saved to the ArticlePolitics.
+2025-05-10 23:03:55,786 - INFO - Scraping full text from https://www.bbc.com/news/articles/c071elp1rv1o
+2025-05-10 23:03:56,492 - INFO - Article 'Elton John and Dua Lipa seek protection from AI' successfully saved to the ArticlePolitics.
+2025-05-10 23:03:56,492 - INFO - Scraping full text from https://www.bbc.com/news/articles/cy9vz28nyedo
+2025-05-10 23:03:57,060 - INFO - Article 'Soviet-era spacecraft 'likely' to have re-entered Earth's atmosphere' successfully saved to the ArticlePolitics.
+2025-05-10 23:03:57,060 - INFO - Skipping article 'Mexico sues Google over 'Gulf of America' name change' as it is not from specified date.
+2025-05-10 23:03:57,060 - INFO - Skipping article 'US confirms plan for private firms to deliver Gaza aid despite UN alarm' as it is not from specified date.
+2025-05-10 23:03:57,060 - INFO - Skipping article 'Xi shows he wants to be close to Putin - but not too close' as it is not from specified date.
+2025-05-10 23:03:57,061 - INFO - Scraping full text from https://www.bbc.com/news/articles/c6293qgd46zo
+2025-05-10 23:03:57,782 - INFO - Article 'No water, no power - Port Sudan reeling after week of attacks' successfully saved to the ArticlePolitics.
+2025-05-10 23:03:57,783 - INFO - Skipping article 'Moon dust 'rarer than gold' arrives in UK from China' as it is not from specified date.
+2025-05-10 23:03:57,784 - INFO - Scraping full text from https://www.bbc.com/news/articles/c4g2j45d5zeo
+2025-05-10 23:03:58,762 - INFO - Article ''I freaked out and spent $400 online': US consumers on cheap shipping changes' successfully saved to the ArticlePolitics.
+2025-05-10 23:03:58,763 - INFO - Scraping full text from https://www.bbc.com/news/articles/c9vg8k4zxk9o
+2025-05-10 23:04:00,557 - INFO - Article 'Witchcraft, innuendo and moody goth boys: Your guide to all 37 Eurovision songs' successfully saved to the ArticlePolitics.
+2025-05-10 23:04:00,558 - INFO - Scraping full text from https://www.bbc.com/news/articles/c74qjjvzlgjo
+2025-05-10 23:04:01,451 - INFO - Article 'The US and China are finally talking. Why now?' successfully saved to the ArticlePolitics.
+2025-05-10 23:04:01,451 - INFO - Skipping article 'How can India and Pakistan find a way to de-escalate?' as it is not from specified date.
+2025-05-10 23:04:01,452 - INFO - Skipping article 'Hong Kong pro-China informer: 'Why I've reported dozens of people to police'' as it is not from specified date.
+2025-05-10 23:04:01,452 - INFO - Scraping full text from https://www.bbc.com/news/videos/cj0949qnlz2o
+2025-05-10 23:04:03,262 - INFO - Article 'White House 'actively looking at' suspending habeas corpus' successfully saved to the ArticlePolitics.
+2025-05-10 23:04:03,262 - INFO - Skipping article 'Watch: Steve Rosenberg reports from Russia's Red Square on Victory Day' as it is not from specified date.
+2025-05-10 23:04:03,262 - INFO - Skipping article 'Watch: Trump misspeaks and calls toy firm Mattel a country' as it is not from specified date.
+2025-05-10 23:04:03,262 - INFO - Skipping article 'Three things we learned from Putin's Red Square parade' as it is not from specified date.
+2025-05-10 23:04:03,262 - INFO - Skipping article 'Watch: Pope Leo XIV's first Mass as pontiff' as it is not from specified date.
+2025-05-10 23:04:03,262 - INFO - Fetching feed from Al Jazeera (https://www.aljazeera.com/xml/rss)
+2025-05-10 23:04:03,928 - INFO - Fetching feed from Diplomat (https://thediplomat.com/feed/)
+2025-05-10 23:04:04,381 - INFO - Skipping article 'The India-Pakistan Clashes of 2025: Why Things Are Different (And More Dangerous) This Time' as it is not from specified date.
+2025-05-10 23:04:04,381 - INFO - Skipping article 'The CIA Is Making a New Push to Recruit Chinese Officials. Will It Work?' as it is not from specified date.
+2025-05-10 23:04:04,381 - INFO - Skipping article 'Vietnam and the Contested Memory of April 30, 1975' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'Xi, Putin Vow to ‘Defend the Victorious Outcome of WWII’ – by Countering the US' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'The Japan-US Alliance: Has the ‘Bottle Cap’ Come Off?' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'Northern Myanmar Poses a Challenge to China’s Critical Minerals Strategy' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'The Politics of Regional Gravity: South Korea’s Space Future Caught in Domestic Politics' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'India’s Indus Waters Treaty Suspension: What Happens Next?' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'Revealed: North Korea’s Diplomatic Missions Double as Trade Brokers' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'Under the Eternal Blue Sky: How Mongolian Families Are Reimagining Ger Living' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'The Dimash Phenomenon: Kazakhstan’s Soft Power' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'PACE Issues Declaration on Afghan Women in Central Asia' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'NPP Sweeps Sri Lanka’s Local Elections, But Vote Share Plummets' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article '50 Years After the War, Vietnam’s Greatest Challenge May Lie in the Realm of Memory' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'Marcos-Duterte Feud Looms Large as Philippines Approaches May 12 Midterms' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'Myanmar Junta Boss to Attend World War II Victory Parade in Moscow' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'The Duality in China’s Security Relations With Russia' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'The Strategic Misreading of Taiwan Is a Dangerous Oversight' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'Connectivity and Energy Cooperation Key to Boosting India-Azerbaijan Relations' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'Does Southeast Asia Lead the World in Human Flourishing?' as it is not from specified date.
+2025-05-10 23:04:04,382 - INFO - Skipping article 'What Can Asia and the Pacific Expect From Australia’s New Government?' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Russian Raids Target Central Asians in Cafes, Bathhouses' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Why Did Pyongyang and Moscow Finally Admit North Koreans Are Fighting in the Russia-Ukraine War?' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Vietnamese Exports to the US Reach New Post-COVID High' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Indonesian Cinema Booms as Industry Expands Beyond Classic Horror Formula' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'The Survival of Cambodian Press Freedom Requires More Than Funding' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Australia’s PM Albanese Bound For Indonesia on First Post-election Trip' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'The PhilHealth Supreme Court Case, Explained' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Russia’s Plans Are Bigger Than Conflict With the West or Camaraderie With China' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Why Beijing Is Worried About Chinese People’s ‘Well-being’' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'World Bank-IMF Spring Meetings Send Signal to South Asia: Fix the Fundamentals' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article '‘Publish or Perish’ Culture Fueling Research Misconduct in India' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'In Retaliation for Pahalgam Attack, India Strikes Pakistan-based Terror Camps' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Lee Jae-myung’s Presidential Bid Is Safe After Court’s Decision to Postpone Trials' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Amid India-Pakistan Clashes, China Faces a Difficult Balancing Act' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Political Parties Proliferate in Post-Hasina Bangladesh' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Inside Uzbekistan’s Private University Boom' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Solomon Islands PM Avoids No Confidence Vote, But Is Potentially Weakened' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Saudi Arabia Suspends E-Visas for Citizens of Tajikistan, Uzbekistan' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Pakistan Prepares Counterblow as India’s Airstrikes Raise War Fears' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Vietnam’s Centralization Drive Faces External Economic Headwinds' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Myanmar Military Announces Further Extension of Earthquake Ceasefire' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Could Taiwan Survive an EMP Attack by China?' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Australia’s Election Result Offers Certainty to a Region in Flux' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Indonesia to Loosen Local Content Rules Amid US Tariff Negotiations' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Post-Election Canada and Australia Face Similar Security Challenges – and a Shared Opportunity' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Shipbuilding Industry Takes Center Stage in US Relations With Japan and South Korea' as it is not from specified date.
+2025-05-10 23:04:04,383 - INFO - Skipping article 'Deglobalization and International Investment Trends' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'How Japan’s $1.1 Trillion in US Treasuries Became a Strategic Lever in the New Tariff War' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Now or Never: Australia’s Albanese Must Deliver for Climate Justice' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'How a Supreme Court Ruling Upended South Korea’s Presidential Election' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'What’s the Caste Census That India’s PM Modi Agreed to Under Opposition Pressure?' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Bangladesh’s Sisyphean Battle With Its Past' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'LDP’s Takaichi Proposes a ‘Quasi-Alliance’ While in Taiwan' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Why Australia Rejected the Liberal Party' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Gateway to Corruption: Cambodia’s Education-Crime Nexus' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Parsing Indonesia’s Border Diplomacy Strategy' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Sean Turnell on Myanmar’s Star-crossed Economic Reforms' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'US Announces Sanctions Against Myanmar Military for ‘Facilitating’ Cyber Scams' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Pandora’s Box? Bangladesh and the Rakhine Humanitarian Corridor' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Cambodian Court Sentences Prominent Labor Activist to 4 Years in Prison' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Locating the India-Pakistan Crisis on Herman Kahn’s Escalation Ladder' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'In First, China Coast Guard Helicopter Enters Japan’s Airspace Near Disputed Islands, Escalating Tensions' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Pakistan Threatens to Suspend Participation in the Simla Agreement' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Labor Routs the Coalition as Australia’s Voters Reject Dutton’s Undercooked Offering' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Bangladesh: Old Myths, New Country' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'As Global Trade Tensions Rise, Ruto’s Visit to China Shows How Africa Can Stay Ahead' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Could Taiwan Hold a New Round of Elections?' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Kim Moon-soo Elected as PPP’s Presidential Candidate' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'After Pahalgam, India Has a New Kashmir Strategy: Collective Punishment' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Vietnam’s PM Says US Tariffs Threaten Global Supply Chains, Growth' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Empowering Parents to Protect Children Online in Asia' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Ecuador’s Incoming Government Faces Difficult Choices Regarding China' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Singapore’s PAP Scores Decisive Victory in General Election' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Nuclear Weapons Are No Silver Bullet for Australia’s Strategic Predicament' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Trump’s Art of the TikTok Deal Should be Carefully Scrutinized by Congress' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'What Could Japan’s Coast Guard Do in an Armed Attack?' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'The Challenge to Japan’s Nuclear Restart' as it is not from specified date.
+2025-05-10 23:04:04,384 - INFO - Skipping article 'Donald Trump’s Long Shadow Over Australia’s Election' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'West by Sea: Why the Pacific’s Security Should Be Anchored in Indo-Pacific Partnerships' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'How US Aid Cuts Are Putting Millions of Lives at Risk' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'Inflection Point: What to Do When the State is the Syndicate?' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'Inside Myanmar’s Civilian-Centered Earthquake Relief Effort' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'Baloch Women are Rising Up – and Going to Prison for It' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'Thai Prosecutors Dismiss Royal Defamation Charge Against American Academic' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'Indonesian Parliament to Ratify Vietnam EEZ Agreement This Month' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'One Small Mistake Could Trigger An Uncontrollable Escalation Between India and Pakistan' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'Rebranding Jamaat: The Rise of the ‘Islamist Left’ in Bangladesh' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'LG’s Exit from a Mega-Battery Project in Indonesia, Explained' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'Philippine Authorities Call Out Alleged Chinese Election Interference' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'Behind the Boom in Hong Kongers ‘Heading North’' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'China’s Coming Diplomatic Blitz in the Americas' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'Does Mongolia Need an Aviation Fuel Deal With Russia?' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'Why the India-US Sonobuoy Co-Production Agreement Matters' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'Walking the Geopolitical Tightrope: South Korea’s High Stakes Bet on AI' as it is not from specified date.
+2025-05-10 23:04:04,385 - INFO - Skipping article 'Protecting the Global Climate Agenda in an Era of China-US Competition' as it is not from specified date.
+2025-05-10 23:05:38,701 - INFO - Summary generated and saved for 2025-05-10.
+2025-05-10 23:05:55,984 - INFO - Summary generated and saved for 2025-05-10.
+2025-05-12 12:10:35,054 - INFO - Fetching feed from TechCrunch All (https://techcrunch.com/feed/)
+2025-05-12 12:10:35,588 - INFO - Skipping article 'Egypt’s Nawy, the largest proptech in Africa, raises $52M to take on MENA' as it is not from specified date.
+2025-05-12 12:10:35,592 - INFO - Scraping full text from https://techcrunch.com/2025/05/11/23andme-customers-notified-of-bankruptcy-and-potential-claims-deadline-to-file-is-july-14/
+2025-05-12 12:10:36,457 - INFO - Article '23andMe customers notified of bankruptcy and potential claims — deadline to file is July 14' successfully saved to the Article.
+2025-05-12 12:10:36,458 - INFO - Scraping full text from https://techcrunch.com/2025/05/11/trump-fires-copyright-office-director-after-report-raises-questions-about-ai-training/
+2025-05-12 12:10:37,285 - INFO - Article 'Trump fires Copyright Office director after report raises questions about AI training' successfully saved to the Article.
+2025-05-12 12:10:37,286 - INFO - Scraping full text from https://techcrunch.com/2025/05/11/fitness-tracker-whoop-faces-unhappy-customers-over-upgrade-policy/
+2025-05-12 12:10:38,106 - INFO - Article 'Fitness tracker Whoop faces unhappy customers over upgrade policy' successfully saved to the Article.
+2025-05-12 12:10:38,107 - INFO - Scraping full text from https://techcrunch.com/2025/05/11/microsoft-and-openai-may-be-renegotiating-their-partnership/
+2025-05-12 12:10:38,948 - INFO - Article 'Microsoft and OpenAI may be renegotiating their partnership' successfully saved to the Article.
+2025-05-12 12:10:38,949 - INFO - Scraping full text from https://techcrunch.com/2025/05/11/the-backbone-pro-controller-makes-mobile-gaming-worth-the-hassle/
+2025-05-12 12:10:39,818 - INFO - Article 'The Backbone Pro controller makes mobile gaming worth the hassle' successfully saved to the Article.
+2025-05-12 12:10:39,819 - INFO - Scraping full text from https://techcrunch.com/2025/05/11/amazon-offers-peek-at-new-human-jobs-in-an-ai-bot-world/
+2025-05-12 12:10:40,667 - INFO - Article 'Amazon offers peek at new human jobs in an AI bot world' successfully saved to the Article.
+2025-05-12 12:10:40,668 - INFO - Scraping full text from https://techcrunch.com/2025/05/11/the-greek-revival-youre-not-watching-but-probably-should-be/
+2025-05-12 12:10:41,451 - INFO - Article 'The Greek revival you’re not watching (but probably should be)' successfully saved to the Article.
+2025-05-12 12:10:41,451 - INFO - Skipping article 'Elizabeth Holmes’ partner reportedly fundraising for new blood-testing startup' as it is not from specified date.
+2025-05-12 12:10:41,451 - INFO - Skipping article 'FTC delays enforcement of click-to-cancel rule' as it is not from specified date.
+2025-05-12 12:10:41,451 - INFO - Skipping article 'Week in Review: Instacart CEO heads to OpenAI' as it is not from specified date.
+2025-05-12 12:10:41,451 - INFO - Skipping article 'Google will pay Texas $1.4 billion to settle privacy lawsuits' as it is not from specified date.
+2025-05-12 12:10:41,451 - INFO - Skipping article 'OpenAI’s enterprise adoption appears to be accelerating, at the expense of rivals' as it is not from specified date.
+2025-05-12 12:10:41,451 - INFO - Skipping article 'The near joy of biking with Ray-Ban Meta glasses' as it is not from specified date.
+2025-05-12 12:10:41,451 - INFO - Skipping article 'A timeline of the US semiconductor market in 2025' as it is not from specified date.
+2025-05-12 12:10:41,452 - INFO - Skipping article 'Whitney Wolfe Herd on burning out —  and bouncing back' as it is not from specified date.
+2025-05-12 12:10:41,452 - INFO - Skipping article 'TechCrunch All Stage 2025 welcomes Boldstart partner Ellen Chisa to talk early-stage enterprise bets' as it is not from specified date.
+2025-05-12 12:10:41,452 - INFO - Skipping article 'Five things we learned from WhatsApp vs. NSO Group spyware lawsuit' as it is not from specified date.
+2025-05-12 12:10:41,452 - INFO - Skipping article 'TechCrunch All Stage 2025: Prepare 4 VC’s Jason Kraus will instruct on how to turn chaos into momentum' as it is not from specified date.
+2025-05-12 12:10:41,452 - INFO - Skipping article 'Scaling startups in the European market' as it is not from specified date.
+2025-05-12 12:10:41,452 - INFO - Fetching feed from SkyNews Tech (https://feeds.skynews.com/feeds/rss/technology.xml)
+2025-05-12 12:10:42,143 - INFO - Skipping article 'Half-tonne piece of Soviet rocket may have crashed through atmosphere over south of England' as it is not from specified date.
+2025-05-12 12:10:42,143 - INFO - Skipping article ''It's illogical to tarnish a pristine area': The communities fighting green energy infrastructure' as it is not from specified date.
+2025-05-12 12:10:42,143 - INFO - Skipping article 'First moon rocks on Earth in half a century arrive in UK' as it is not from specified date.
+2025-05-12 12:10:42,144 - INFO - Skipping article 'Bill Gates speeds up plans to give away his fortune' as it is not from specified date.
+2025-05-12 12:10:42,144 - INFO - Skipping article 'A ban on chlorinated chicken has protected UK consumers - and farmers' as it is not from specified date.
+2025-05-12 12:10:42,144 - INFO - Skipping article 'Plans to expand massive offshore windfarm under threat' as it is not from specified date.
+2025-05-12 12:10:42,144 - INFO - Skipping article 'Could AI translate animal sounds into words? Tech experts hope so' as it is not from specified date.
+2025-05-12 12:10:42,144 - INFO - Skipping article 'Beatles producer's son on AI plans: 'It's like saying you can burgle my house unless I ask you not to'' as it is not from specified date.
+2025-05-12 12:10:42,144 - INFO - Skipping article 'US senators attempt to ban Trump's 'profoundly corrupt' crypto schemes' as it is not from specified date.
+2025-05-12 12:10:42,144 - INFO - Skipping article 'Hosepipe ban looms - as England suffers driest start to spring since 1950s' as it is not from specified date.
+2025-05-12 12:10:42,144 - INFO - Fetching feed from ArsTechnica Tech (https://feeds.arstechnica.com/arstechnica/technology-lab)
+2025-05-12 12:10:42,804 - INFO - Skipping article 'New Lego-building AI creates models that actually stand up in real life' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'AI use damages professional reputation, study suggests' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'Fidji Simo joins OpenAI as new CEO of Applications' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'DOGE software engineer’s computer infected by info-stealing malware' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'Trump admin to roll back Biden’s AI chip restrictions' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'WhatsApp provides no cryptographic management for group messages' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'VMware perpetual license holders receive cease-and-desist letters from Broadcom' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'Jury orders NSO to pay $167 million for hacking WhatsApp users' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'Data centers say Trump’s crackdown on renewables bad for business, AI' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'Man pleads guilty to using malicious AI software to hack Disney employee' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'Signal clone used by Trump official stops operations after report it was hacked' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'OpenAI scraps controversial plan to become for-profit after mounting pressure' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'Hundreds of e-commerce sites hacked in supply-chain attack' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'Microsoft’s new “passwordless by default” is great but comes at a cost' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'Claude’s AI research mode now runs for up to 45 minutes before delivering reports' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'Time saved by AI offset by new work created, study suggests' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'Why MFA is getting easier to bypass and what to do about it' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'Windows RDP lets you log in using revoked passwords. Microsoft is OK with that.' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'Millions of Apple Airplay-enabled devices can be hacked via Wi-Fi' as it is not from specified date.
+2025-05-12 12:10:42,805 - INFO - Skipping article 'The end of an AI that shocked the world: OpenAI retires GPT-4' as it is not from specified date.
+2025-05-12 12:10:54,310 - INFO - Fetching feed from BBC WORLD (https://feeds.bbci.co.uk/news/world/rss.xml)
+2025-05-12 12:10:54,750 - INFO - Skipping article 'US and China agree to slash tariffs for 90 days' as it is not from specified date.
+2025-05-12 12:10:54,750 - INFO - Skipping article 'Hamas to release US-Israeli hostage as part of efforts to reach Gaza ceasefire' as it is not from specified date.
+2025-05-12 12:10:54,750 - INFO - Skipping article 'Kurdish group PKK says it is laying down arms and disbanding' as it is not from specified date.
+2025-05-12 12:10:54,750 - INFO - Skipping article 'India-Pakistan top military officials to speak as ceasefire holds' as it is not from specified date.
+2025-05-12 12:10:54,750 - INFO - Skipping article 'India great Kohli retires from Test cricket' as it is not from specified date.
+2025-05-12 12:10:54,751 - INFO - Scraping full text from https://www.bbc.com/news/articles/ckgxrm0lnego
+2025-05-12 12:10:56,579 - INFO - Article 'Zelensky challenges Putin to meet him after Trump demands Ukraine-Russia talks' successfully saved to the ArticlePolitics.
+2025-05-12 12:10:56,580 - INFO - Skipping article 'White House and Qatar discuss transfer of luxury jet for Air Force One' as it is not from specified date.
+2025-05-12 12:10:56,580 - INFO - Skipping article 'Poland accuses Russia of arson over 2024 shopping centre fire' as it is not from specified date.
+2025-05-12 12:10:56,580 - INFO - Scraping full text from https://www.bbc.com/news/articles/crk2me7vjxxo
+2025-05-12 12:10:57,314 - INFO - Article 'Trump heads to Saudi Arabia eyeing more investment in US' successfully saved to the ArticlePolitics.
+2025-05-12 12:10:57,315 - INFO - Scraping full text from https://www.bbc.com/news/articles/c79eznzx50vo
+2025-05-12 12:10:58,332 - INFO - Article 'Amber Heard announces birth of twins in Mother's Day post' successfully saved to the ArticlePolitics.
+2025-05-12 12:10:58,332 - INFO - Scraping full text from https://www.bbc.com/news/articles/c1egely9v3go
+2025-05-12 12:10:59,144 - INFO - Article 'Why Burkina Faso's junta leader has captured hearts and minds around the world' successfully saved to the ArticlePolitics.
+2025-05-12 12:10:59,145 - INFO - Scraping full text from https://www.bbc.com/news/articles/crk24dz8ne5o
+2025-05-12 12:11:00,548 - INFO - Article 'Taliban suspends chess over gambling concerns' successfully saved to the ArticlePolitics.
+2025-05-12 12:11:00,549 - INFO - Scraping full text from https://www.bbc.com/news/articles/cn053d5ygy7o
+2025-05-12 12:11:01,389 - INFO - Article 'Three men held over suitcases stuffed with hermit crabs' successfully saved to the ArticlePolitics.
+2025-05-12 12:11:01,390 - INFO - Skipping article 'Soviet-era spacecraft 'likely' to have re-entered Earth's atmosphere' as it is not from specified date.
+2025-05-12 12:11:01,390 - INFO - Skipping article 'No water, no power - Port Sudan reeling after week of attacks' as it is not from specified date.
+2025-05-12 12:11:01,390 - INFO - Skipping article 'Trump administration considers suspending habeas corpus' as it is not from specified date.
+2025-05-12 12:11:01,390 - INFO - Scraping full text from https://www.bbc.com/news/articles/c8d1j3v2y3mo
+2025-05-12 12:11:02,439 - INFO - Article 'BBC team's tense encounter with sanctioned Israeli settler while filming in West Bank' successfully saved to the ArticlePolitics.
+2025-05-12 12:11:02,440 - INFO - Scraping full text from https://www.bbc.com/news/articles/ce80d4yppl3o
+2025-05-12 12:11:05,175 - INFO - Article 'The rare disease in a remote town where 'almost everyone is a cousin'' successfully saved to the ArticlePolitics.
+2025-05-12 12:11:05,176 - INFO - Scraping full text from https://www.bbc.com/news/articles/clyn617xv4no
+2025-05-12 12:11:07,198 - INFO - Article 'How backchannels and US mediators pulled India and Pakistan back from the brink' successfully saved to the ArticlePolitics.
+2025-05-12 12:11:07,199 - INFO - Scraping full text from https://www.bbc.com/news/articles/crmk2y7lrpeo
+2025-05-12 12:11:09,440 - INFO - Article 'What Trump does next on Ukraine is key - and he could go either way' successfully saved to the ArticlePolitics.
+2025-05-12 12:11:09,440 - INFO - Scraping full text from https://www.bbc.com/news/articles/c1mev5ygk0yo
+2025-05-12 12:11:11,502 - INFO - Article ''Proud to be young' - Beauty queen, lawyer and Botswana's youngest cabinet minister' successfully saved to the ArticlePolitics.
+2025-05-12 12:11:11,503 - INFO - Scraping full text from https://www.bbc.com/news/articles/c5yep08r9vjo
+2025-05-12 12:11:13,620 - INFO - Article 'One of Alcatraz's last living inmates on Trump's plan to reopen notorious prison' successfully saved to the ArticlePolitics.
+2025-05-12 12:11:13,621 - INFO - Scraping full text from https://www.bbc.com/news/articles/cwynl8jv4gjo
+2025-05-12 12:11:14,442 - INFO - Article 'What is habeas corpus and why might Donald Trump want to suspend it?' successfully saved to the ArticlePolitics.
+2025-05-12 12:11:14,443 - INFO - Scraping full text from https://www.bbc.com/news/articles/ckg2vzx4w3do
+2025-05-12 12:11:15,283 - INFO - Article 'Along the Canada border, small-town America feels sting of Trump's trade war' successfully saved to the ArticlePolitics.
+2025-05-12 12:11:15,284 - INFO - Scraping full text from https://www.bbc.com/news/videos/c071n4339xzo
+2025-05-12 12:11:16,310 - INFO - Article 'Watch: Crowds cheer as Pope holds first Sunday address' successfully saved to the ArticlePolitics.
+2025-05-12 12:11:16,311 - INFO - Skipping article 'White House 'actively looking at' suspending habeas corpus' as it is not from specified date.
+2025-05-12 12:11:16,311 - INFO - Skipping article 'Watch: Steve Rosenberg reports from Russia's Red Square on Victory Day' as it is not from specified date.
+2025-05-12 12:11:16,311 - INFO - Skipping article 'Watch: Trump misspeaks and calls toy firm Mattel a country' as it is not from specified date.
+2025-05-12 12:11:16,311 - INFO - Skipping article 'Three things we learned from Putin's Red Square parade' as it is not from specified date.
+2025-05-12 12:11:16,311 - INFO - Fetching feed from Al Jazeera (https://www.aljazeera.com/xml/rss)
+2025-05-12 12:11:16,935 - INFO - Fetching feed from Diplomat (https://thediplomat.com/feed/)
+2025-05-12 12:11:17,563 - INFO - Skipping article 'Thai Courts Turn Spotlight on Former PM Thaksin’s Hospital Stay' as it is not from specified date.
+2025-05-12 12:11:17,563 - INFO - Skipping article 'Southeast Asia, Australia, and the Trumpian Worldview' as it is not from specified date.
+2025-05-12 12:11:17,564 - INFO - Scraping full text from https://thediplomat.com/2025/05/india-and-pakistan-agree-to-cease-fire/
+2025-05-12 12:11:18,383 - INFO - Article 'India and Pakistan Agree to Ceasefire' successfully saved to the ArticlePolitics.
+2025-05-12 12:11:18,383 - INFO - Skipping article 'The India-Pakistan Clashes of 2025: Why Things Are Different (And More Dangerous) This Time' as it is not from specified date.
+2025-05-12 12:11:18,383 - INFO - Skipping article 'The CIA Is Making a New Push to Recruit Chinese Officials. Will It Work?' as it is not from specified date.
+2025-05-12 12:11:18,383 - INFO - Skipping article 'Vietnam and the Contested Memory of April 30, 1975' as it is not from specified date.
+2025-05-12 12:11:18,383 - INFO - Skipping article 'Xi, Putin Vow to ‘Defend the Victorious Outcome of WWII’ – by Countering the US' as it is not from specified date.
+2025-05-12 12:11:18,383 - INFO - Skipping article 'The Japan-US Alliance: Has the ‘Bottle Cap’ Come Off?' as it is not from specified date.
+2025-05-12 12:11:18,383 - INFO - Skipping article 'Northern Myanmar Poses a Challenge to China’s Critical Minerals Strategy' as it is not from specified date.
+2025-05-12 12:11:18,383 - INFO - Skipping article 'The Politics of Regional Gravity: South Korea’s Space Future Caught in Domestic Politics' as it is not from specified date.
+2025-05-12 12:11:18,383 - INFO - Skipping article 'India’s Indus Waters Treaty Suspension: What Happens Next?' as it is not from specified date.
+2025-05-12 12:11:18,383 - INFO - Skipping article 'Revealed: North Korea’s Diplomatic Missions Double as Trade Brokers' as it is not from specified date.
+2025-05-12 12:11:18,383 - INFO - Skipping article 'Under the Eternal Blue Sky: How Mongolian Families Are Reimagining Ger Living' as it is not from specified date.
+2025-05-12 12:11:18,383 - INFO - Skipping article 'The Dimash Phenomenon: Kazakhstan’s Soft Power' as it is not from specified date.
+2025-05-12 12:11:18,383 - INFO - Skipping article 'PACE Issues Declaration on Afghan Women in Central Asia' as it is not from specified date.
+2025-05-12 12:11:18,383 - INFO - Skipping article 'NPP Sweeps Sri Lanka’s Local Elections, But Vote Share Plummets' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article '50 Years After the War, Vietnam’s Greatest Challenge May Lie in the Realm of Memory' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Marcos-Duterte Feud Looms Large as Philippines Approaches May 12 Midterms' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Myanmar Junta Boss to Attend World War II Victory Parade in Moscow' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'The Duality in China’s Security Relations With Russia' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'The Strategic Misreading of Taiwan Is a Dangerous Oversight' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Connectivity and Energy Cooperation Key to Boosting India-Azerbaijan Relations' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Does Southeast Asia Lead the World in Human Flourishing?' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'What Can Asia and the Pacific Expect From Australia’s New Government?' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Russian Raids Target Central Asians in Cafes, Bathhouses' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Why Did Pyongyang and Moscow Finally Admit North Koreans Are Fighting in the Russia-Ukraine War?' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Vietnamese Exports to the US Reach New Post-COVID High' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Indonesian Cinema Booms as Industry Expands Beyond Classic Horror Formula' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'The Survival of Cambodian Press Freedom Requires More Than Funding' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Australia’s PM Albanese Bound For Indonesia on First Post-election Trip' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'The PhilHealth Supreme Court Case, Explained' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Russia’s Plans Are Bigger Than Conflict With the West or Camaraderie With China' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Why Beijing Is Worried About Chinese People’s ‘Well-being’' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'World Bank-IMF Spring Meetings Send Signal to South Asia: Fix the Fundamentals' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article '‘Publish or Perish’ Culture Fueling Research Misconduct in India' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'In Retaliation for Pahalgam Attack, India Strikes Pakistan-based Terror Camps' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Lee Jae-myung’s Presidential Bid Is Safe After Court’s Decision to Postpone Trials' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Amid India-Pakistan Clashes, China Faces a Difficult Balancing Act' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Political Parties Proliferate in Post-Hasina Bangladesh' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Inside Uzbekistan’s Private University Boom' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Solomon Islands PM Avoids No Confidence Vote, But Is Potentially Weakened' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Saudi Arabia Suspends E-Visas for Citizens of Tajikistan, Uzbekistan' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Pakistan Prepares Counterblow as India’s Airstrikes Raise War Fears' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Vietnam’s Centralization Drive Faces External Economic Headwinds' as it is not from specified date.
+2025-05-12 12:11:18,384 - INFO - Skipping article 'Myanmar Military Announces Further Extension of Earthquake Ceasefire' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Could Taiwan Survive an EMP Attack by China?' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Australia’s Election Result Offers Certainty to a Region in Flux' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Indonesia to Loosen Local Content Rules Amid US Tariff Negotiations' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Post-Election Canada and Australia Face Similar Security Challenges – and a Shared Opportunity' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Shipbuilding Industry Takes Center Stage in US Relations With Japan and South Korea' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Deglobalization and International Investment Trends' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'How Japan’s $1.1 Trillion in US Treasuries Became a Strategic Lever in the New Tariff War' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Now or Never: Australia’s Albanese Must Deliver for Climate Justice' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'How a Supreme Court Ruling Upended South Korea’s Presidential Election' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'What’s the Caste Census That India’s PM Modi Agreed to Under Opposition Pressure?' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Bangladesh’s Sisyphean Battle With Its Past' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'LDP’s Takaichi Proposes a ‘Quasi-Alliance’ While in Taiwan' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Why Australia Rejected the Liberal Party' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Gateway to Corruption: Cambodia’s Education-Crime Nexus' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Parsing Indonesia’s Border Diplomacy Strategy' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Sean Turnell on Myanmar’s Star-crossed Economic Reforms' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'US Announces Sanctions Against Myanmar Military for ‘Facilitating’ Cyber Scams' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Pandora’s Box? Bangladesh and the Rakhine Humanitarian Corridor' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Cambodian Court Sentences Prominent Labor Activist to 4 Years in Prison' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Locating the India-Pakistan Crisis on Herman Kahn’s Escalation Ladder' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'In First, China Coast Guard Helicopter Enters Japan’s Airspace Near Disputed Islands, Escalating Tensions' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Pakistan Threatens to Suspend Participation in the Simla Agreement' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Labor Routs the Coalition as Australia’s Voters Reject Dutton’s Undercooked Offering' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Bangladesh: Old Myths, New Country' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'As Global Trade Tensions Rise, Ruto’s Visit to China Shows How Africa Can Stay Ahead' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Could Taiwan Hold a New Round of Elections?' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Kim Moon-soo Elected as PPP’s Presidential Candidate' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'After Pahalgam, India Has a New Kashmir Strategy: Collective Punishment' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Vietnam’s PM Says US Tariffs Threaten Global Supply Chains, Growth' as it is not from specified date.
+2025-05-12 12:11:18,385 - INFO - Skipping article 'Empowering Parents to Protect Children Online in Asia' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'Ecuador’s Incoming Government Faces Difficult Choices Regarding China' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'Singapore’s PAP Scores Decisive Victory in General Election' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'Nuclear Weapons Are No Silver Bullet for Australia’s Strategic Predicament' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'Trump’s Art of the TikTok Deal Should be Carefully Scrutinized by Congress' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'What Could Japan’s Coast Guard Do in an Armed Attack?' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'The Challenge to Japan’s Nuclear Restart' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'Donald Trump’s Long Shadow Over Australia’s Election' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'West by Sea: Why the Pacific’s Security Should Be Anchored in Indo-Pacific Partnerships' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'How US Aid Cuts Are Putting Millions of Lives at Risk' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'Inflection Point: What to Do When the State is the Syndicate?' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'Inside Myanmar’s Civilian-Centered Earthquake Relief Effort' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'Baloch Women are Rising Up – and Going to Prison for It' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'Thai Prosecutors Dismiss Royal Defamation Charge Against American Academic' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'Indonesian Parliament to Ratify Vietnam EEZ Agreement This Month' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'One Small Mistake Could Trigger An Uncontrollable Escalation Between India and Pakistan' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'Rebranding Jamaat: The Rise of the ‘Islamist Left’ in Bangladesh' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'LG’s Exit from a Mega-Battery Project in Indonesia, Explained' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'Philippine Authorities Call Out Alleged Chinese Election Interference' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'Behind the Boom in Hong Kongers ‘Heading North’' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'China’s Coming Diplomatic Blitz in the Americas' as it is not from specified date.
+2025-05-12 12:11:18,386 - INFO - Skipping article 'Does Mongolia Need an Aviation Fuel Deal With Russia?' as it is not from specified date.
+2025-05-12 12:11:46,607 - INFO - Summary generated and saved for 2025-05-11.
+2025-05-12 12:12:27,022 - INFO - Summary generated and saved for 2025-05-11.
+2025-05-12 22:21:07,299 - INFO - Fetching feed from TechCrunch All (https://techcrunch.com/feed/)
+2025-05-12 22:21:07,677 - INFO - Scraping full text from https://techcrunch.com/2025/05/12/google-i-o-2025-how-to-watch-all-the-ai-and-android-reveals/
+2025-05-12 22:21:08,511 - INFO - Article 'Google I/O 2025: How to watch all the AI and Android reveals' successfully saved to the Article.
+2025-05-12 22:21:08,512 - INFO - Scraping full text from https://techcrunch.com/2025/05/12/apple-brings-emergency-satellite-features-to-iphone-13-with-ios-18-5/
+2025-05-12 22:21:09,276 - INFO - Article 'Apple brings emergency satellite features to iPhone 13 with iOS 18.5' successfully saved to the Article.
+2025-05-12 22:21:09,277 - INFO - Scraping full text from https://techcrunch.com/2025/05/12/even-a16z-vcs-say-no-one-really-knows-what-an-ai-agent-is/
+2025-05-12 22:21:10,075 - INFO - Article 'Even a16z VCs say no one really knows what an AI agent is' successfully saved to the Article.
+2025-05-12 22:21:10,076 - INFO - Scraping full text from https://techcrunch.com/2025/05/12/congressman-is-investigating-fintech-ramps-attempt-to-win-25m-federal-contract/
+2025-05-12 22:21:10,880 - INFO - Article 'Congressman is investigating fintech Ramp’s attempt to win $25M federal contract' successfully saved to the Article.
+2025-05-12 22:21:10,881 - INFO - Scraping full text from https://techcrunch.com/2025/05/12/mercurys-ceo-formalizes-bets-on-early-stage-founders-with-a-26m-fund/
+2025-05-12 22:21:11,724 - INFO - Article 'Mercury’s CEO formalizes bets on early-stage founders with a $26M fund' successfully saved to the Article.
+2025-05-12 22:21:11,725 - INFO - Scraping full text from https://techcrunch.com/2025/05/12/google-launches-new-initiative-to-back-startups-building-ai/
+2025-05-12 22:21:12,483 - INFO - Article 'Google launches new initiative to back startups building AI' successfully saved to the Article.
+2025-05-12 22:21:12,484 - INFO - Scraping full text from https://techcrunch.com/2025/05/12/saudi-prince-launches-ai-venture-as-trump-musk-altman-and-zuckerberg-arrive-for-conference/
+2025-05-12 22:21:13,255 - INFO - Article 'Saudi prince launches AI venture as Trump, Musk, Altman, and Zuckerberg arrive for conference' successfully saved to the Article.
+2025-05-12 22:21:13,255 - INFO - Scraping full text from https://techcrunch.com/2025/05/12/sam-altman-apparently-does-not-respect-olive-oil/
+2025-05-12 22:21:14,020 - INFO - Article 'Sam Altman apparently does not respect olive oil' successfully saved to the Article.
+2025-05-12 22:21:14,020 - INFO - Scraping full text from https://techcrunch.com/2025/05/12/openais-stargate-project-reportedly-struggling-to-get-off-the-ground-thanks-to-tariffs/
+2025-05-12 22:21:14,786 - INFO - Article 'OpenAI’s Stargate project reportedly struggling to get off the ground, thanks to tariffs' successfully saved to the Article.
+2025-05-12 22:21:14,787 - INFO - Scraping full text from https://techcrunch.com/2025/05/12/gm-taps-aurora-co-founder-for-new-chief-product-officer-role/
+2025-05-12 22:21:15,574 - INFO - Article 'GM taps Aurora co-founder for new chief product officer role' successfully saved to the Article.
+2025-05-12 22:21:15,575 - INFO - Scraping full text from https://techcrunch.com/2025/05/12/googles-gemma-ai-models-surpass-150m-downloads/
+2025-05-12 22:21:16,465 - INFO - Article 'Google’s Gemma AI models surpass 150M downloads' successfully saved to the Article.
+2025-05-12 22:21:16,466 - INFO - Scraping full text from https://techcrunch.com/2025/05/12/inventwood-is-about-to-mass-produce-wood-thats-stronger-than-steel/
+2025-05-12 22:21:17,298 - INFO - Article 'InventWood is about to mass-produce wood that’s stronger than steel' successfully saved to the Article.
+2025-05-12 22:21:17,299 - INFO - Scraping full text from https://techcrunch.com/2025/05/12/this-american-vc-is-betting-on-european-defense-tech-thats-still-very-unusual/
+2025-05-12 22:21:18,108 - INFO - Article 'This American VC is betting on European defense tech; that’s still very unusual' successfully saved to the Article.
+2025-05-12 22:21:18,109 - INFO - Scraping full text from https://techcrunch.com/2025/05/12/apple-reportedly-plans-to-hike-prices-of-upcoming-iphones/
+2025-05-12 22:21:18,862 - INFO - Article 'Apple reportedly plans to hike prices of upcoming iPhones' successfully saved to the Article.
+2025-05-12 22:21:18,863 - INFO - Scraping full text from https://techcrunch.com/2025/05/12/tech-stocks-look-set-to-jump-as-u-s-and-china-pause-reciprocal-tariffs/
+2025-05-12 22:21:19,548 - INFO - Article 'Tech stocks look set to jump as US and China pause reciprocal tariffs' successfully saved to the Article.
+2025-05-12 22:21:19,549 - INFO - Scraping full text from https://techcrunch.com/2025/05/11/egypts-nawy-lands-a-52m-series-a-to-take-on-mena/
+2025-05-12 22:21:20,316 - INFO - Article 'Egypt’s Nawy, the largest proptech in Africa, raises $52M to take on MENA' successfully saved to the Article.
+2025-05-12 22:21:20,316 - INFO - Skipping article '23andMe customers notified of bankruptcy and potential claims — deadline to file is July 14' as it is not from specified date.
+2025-05-12 22:21:20,316 - INFO - Skipping article 'Trump fires Copyright Office director after report raises questions about AI training' as it is not from specified date.
+2025-05-12 22:21:20,316 - INFO - Skipping article 'Fitness tracker Whoop faces unhappy customers over upgrade policy' as it is not from specified date.
+2025-05-12 22:21:20,317 - INFO - Skipping article 'Microsoft and OpenAI may be renegotiating their partnership' as it is not from specified date.
+2025-05-12 22:21:20,317 - INFO - Fetching feed from SkyNews Tech (https://feeds.skynews.com/feeds/rss/technology.xml)
+2025-05-12 22:21:21,110 - INFO - Scraping full text from https://news.sky.com/story/weight-loss-jabs-could-almost-halve-risk-of-obesity-related-cancers-beyond-slimming-down-study-suggests-13366443
+2025-05-12 22:21:21,889 - INFO - Article 'Weight loss jabs could almost halve risk of cancer, study suggests' successfully saved to the Article.
+2025-05-12 22:21:21,889 - INFO - Skipping article 'Half-tonne piece of Soviet rocket may have crashed through atmosphere over south of England' as it is not from specified date.
+2025-05-12 22:21:21,889 - INFO - Skipping article ''It's illogical to tarnish a pristine area': The communities fighting green energy infrastructure' as it is not from specified date.
+2025-05-12 22:21:21,889 - INFO - Skipping article 'First moon rocks on Earth in half a century arrive in UK' as it is not from specified date.
+2025-05-12 22:21:21,889 - INFO - Skipping article 'Bill Gates speeds up plans to give away his fortune' as it is not from specified date.
+2025-05-12 22:21:21,889 - INFO - Skipping article 'A ban on chlorinated chicken has protected UK consumers - and farmers' as it is not from specified date.
+2025-05-12 22:21:21,889 - INFO - Skipping article 'Plans to expand massive offshore windfarm under threat' as it is not from specified date.
+2025-05-12 22:21:21,889 - INFO - Skipping article 'Could AI translate animal sounds into words? Tech experts hope so' as it is not from specified date.
+2025-05-12 22:21:21,889 - INFO - Skipping article 'Beatles producer's son on AI plans: 'It's like saying you can burgle my house unless I ask you not to'' as it is not from specified date.
+2025-05-12 22:21:21,889 - INFO - Skipping article 'US senators attempt to ban Trump's 'profoundly corrupt' crypto schemes' as it is not from specified date.
+2025-05-12 22:21:21,889 - INFO - Fetching feed from ArsTechnica Tech (https://feeds.arstechnica.com/arstechnica/technology-lab)
+2025-05-12 22:21:22,337 - INFO - Scraping full text from https://arstechnica.com/information-technology/2025/05/new-pope-chose-his-name-based-on-ais-threats-to-human-dignity/
+2025-05-12 22:21:24,940 - INFO - Article 'New pope chose his name based on AI’s threats to “human dignity”' successfully saved to the Article.
+2025-05-12 22:21:24,940 - INFO - Skipping article 'New Lego-building AI creates models that actually stand up in real life' as it is not from specified date.
+2025-05-12 22:21:24,940 - INFO - Skipping article 'AI use damages professional reputation, study suggests' as it is not from specified date.
+2025-05-12 22:21:24,940 - INFO - Skipping article 'Fidji Simo joins OpenAI as new CEO of Applications' as it is not from specified date.
+2025-05-12 22:21:24,940 - INFO - Skipping article 'DOGE software engineer’s computer infected by info-stealing malware' as it is not from specified date.
+2025-05-12 22:21:24,940 - INFO - Skipping article 'Trump admin to roll back Biden’s AI chip restrictions' as it is not from specified date.
+2025-05-12 22:21:24,940 - INFO - Skipping article 'WhatsApp provides no cryptographic management for group messages' as it is not from specified date.
+2025-05-12 22:21:24,940 - INFO - Skipping article 'VMware perpetual license holders receive cease-and-desist letters from Broadcom' as it is not from specified date.
+2025-05-12 22:21:24,940 - INFO - Skipping article 'Jury orders NSO to pay $167 million for hacking WhatsApp users' as it is not from specified date.
+2025-05-12 22:21:24,940 - INFO - Skipping article 'Data centers say Trump’s crackdown on renewables bad for business, AI' as it is not from specified date.
+2025-05-12 22:21:24,940 - INFO - Skipping article 'Man pleads guilty to using malicious AI software to hack Disney employee' as it is not from specified date.
+2025-05-12 22:21:24,940 - INFO - Skipping article 'Signal clone used by Trump official stops operations after report it was hacked' as it is not from specified date.
+2025-05-12 22:21:24,940 - INFO - Skipping article 'OpenAI scraps controversial plan to become for-profit after mounting pressure' as it is not from specified date.
+2025-05-12 22:21:24,941 - INFO - Skipping article 'Hundreds of e-commerce sites hacked in supply-chain attack' as it is not from specified date.
+2025-05-12 22:21:24,941 - INFO - Skipping article 'Microsoft’s new “passwordless by default” is great but comes at a cost' as it is not from specified date.
+2025-05-12 22:21:24,941 - INFO - Skipping article 'Claude’s AI research mode now runs for up to 45 minutes before delivering reports' as it is not from specified date.
+2025-05-12 22:21:24,941 - INFO - Skipping article 'Time saved by AI offset by new work created, study suggests' as it is not from specified date.
+2025-05-12 22:21:24,941 - INFO - Skipping article 'Why MFA is getting easier to bypass and what to do about it' as it is not from specified date.
+2025-05-12 22:21:24,941 - INFO - Skipping article 'Windows RDP lets you log in using revoked passwords. Microsoft is OK with that.' as it is not from specified date.
+2025-05-12 22:21:24,941 - INFO - Skipping article 'Millions of Apple Airplay-enabled devices can be hacked via Wi-Fi' as it is not from specified date.
+2025-05-12 22:21:24,941 - INFO - Fetching feed from BBC TECH (https://feeds.bbci.co.uk/news/technology/rss.xml)
+2025-05-12 22:21:25,331 - INFO - Scraping full text from https://www.bbc.com/news/articles/czr8746x8ymo
+2025-05-12 22:21:26,089 - INFO - Article 'Elon Musk's Starlink trialled on ScotRail trains' successfully saved to the Article.
+2025-05-12 22:21:26,089 - INFO - Skipping article 'Elton John and Dua Lipa seek protection from AI' as it is not from specified date.
+2025-05-12 22:21:26,089 - INFO - Skipping article 'Two porn sites investigated for suspected age check failings' as it is not from specified date.
+2025-05-12 22:21:26,089 - INFO - Skipping article 'Pay day banking outages hit 1.2m people, banks reveal' as it is not from specified date.
+2025-05-12 22:21:26,089 - INFO - Skipping article 'Wikipedia legally challenges 'flawed' online safety rules' as it is not from specified date.
+2025-05-12 22:21:26,089 - INFO - Skipping article 'Apple hits back at US judge's 'extraordinary' contempt order' as it is not from specified date.
+2025-05-12 22:21:26,089 - INFO - Skipping article 'Arizona man shot to death in road rage 'returns' to address his killer' as it is not from specified date.
+2025-05-12 22:21:26,089 - INFO - Skipping article 'iPhone maker announces plan to build Mitsubishi EVs' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Ofcom needs more powers to remove misleading posts, says watchdog' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Maker of Pegasus spyware told to pay $167m for WhatsApp hack' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Delivery delays and empty shelves at Co-op after cyber attack' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'OpenAI says non-profit will remain in control after backlash' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Beware phony IT calls after Co-op and M&S hacks, says UK cyber centre' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'The people refusing to use AI' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Long-distance romance and closure from husband's death - your memories of Skype' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Co-op cyber attack affects customer data, firm admits, after hackers contact BBC' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Co-op gives away free pasta sauce and coffee by mistake' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Apple says most US-bound iPhones no longer made in China' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Harrods latest retailer to be hit by cyber attack' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Xbox prices hiked worldwide amid tariff uncertainty' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Co-op cyber attack: Staff told to keep cameras on in meetings' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Tesla denies contacting headhunters to replace Musk' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Update that made ChatGPT 'dangerously' sycophantic pulled' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Apple referred for possible criminal contempt investigation' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Meta warns of 'worse' experience for European users' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Robot vacuums 'could water plants or play with cat'' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Why is the M&S cyber attack chaos taking so long to resolve?' as it is not from specified date.
+2025-05-12 22:21:26,090 - INFO - Skipping article 'Some M&S stores left with empty shelves after cyber attack' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'M&S stops online orders and issues refunds after cyber attack' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'How Armenia is trying to build a Silicon Valley in the Caucasus' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'Overhaul algorithms and age checks or face fines, tech firms told' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'How can you keep your child safe online?' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'Tech Now' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'Tech Life' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'Tech Life' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'Tech Life' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'Tech Life' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'Tech Now' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'Tech Life' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'Tech Now' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'Business Daily' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'Tech Life' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'Tech Now' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'Visit the Arctic vault holding back-ups of great works' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'Tech Life' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'Who should you trust for a weather forecast?' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'What is bug hunting and why is it changing?' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'Finland's bid to win Europe's start-up crown' as it is not from specified date.
+2025-05-12 22:21:26,091 - INFO - Skipping article 'A revolution is under way in India's trainer industry' as it is not from specified date.
+2025-05-12 22:21:26,092 - INFO - Skipping article 'What's next for social media?' as it is not from specified date.
+2025-05-12 22:21:26,092 - INFO - Skipping article 'The slow but steady advance of driverless vehicles' as it is not from specified date.
+2025-05-12 22:21:26,092 - INFO - Skipping article 'Disasters spur investment in flood and fire risk tech' as it is not from specified date.
+2025-05-12 22:21:26,092 - INFO - Fetching feed from newscientist science (https://www.newscientist.com/feed/home/?cmpid=RSS%7CNSNS-Home)
+2025-05-12 22:21:26,648 - INFO - Scraping full text from https://www.newscientist.com/article/mg26635432-900-the-bold-attempt-to-solve-the-toughest-mystery-at-the-heart-of-physics/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home
+2025-05-12 22:21:27,752 - INFO - Article 'The bold attempt to solve the toughest mystery at the heart of physics' successfully saved to the Article.
+2025-05-12 22:21:27,753 - INFO - Scraping full text from https://www.newscientist.com/article/2479879-go-to-migraine-drug-actually-does-nothing-to-relieve-vertigo-symptoms/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home
+2025-05-12 22:21:28,796 - INFO - Article 'Go-to migraine drug actually does nothing to relieve vertigo symptoms' successfully saved to the Article.
+2025-05-12 22:21:28,797 - INFO - Scraping full text from https://www.newscientist.com/article/2479668-how-humans-survived-a-global-climate-catastrophe-8200-years-ago/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home
+2025-05-12 22:21:29,804 - INFO - Article 'How humans survived a global climate catastrophe 8200 years ago' successfully saved to the Article.
+2025-05-12 22:21:29,805 - INFO - Scraping full text from https://www.newscientist.com/article/2479677-alien-megastructures-would-likely-self-destruct-before-we-spot-them/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home
+2025-05-12 22:21:30,830 - INFO - Article 'Alien megastructures would likely self-destruct before we spot them' successfully saved to the Article.
+2025-05-12 22:21:30,831 - INFO - Scraping full text from https://www.newscientist.com/article/2479709-new-way-to-pull-uranium-from-water-can-help-chinas-nuclear-power-push/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home
+2025-05-12 22:21:31,909 - INFO - Article 'New way to pull uranium from water can help China's nuclear power push' successfully saved to the Article.
+2025-05-12 22:21:31,909 - INFO - Skipping article 'All living things emit an eerie glow that is snuffed out upon death' as it is not from specified date.
+2025-05-12 22:21:31,909 - INFO - Skipping article 'What are microplastics doing to your brain? We’re starting to find out' as it is not from specified date.
+2025-05-12 22:21:31,909 - INFO - Skipping article 'Why physicists keep trying to get rid of space-time entirely' as it is not from specified date.
+2025-05-12 22:21:31,909 - INFO - Skipping article 'Can we get better at spotting when someone is lying?' as it is not from specified date.
+2025-05-12 22:21:31,909 - INFO - Skipping article 'What 7 fiendishly hard puzzles tell us about the nature of mathematics' as it is not from specified date.
+2025-05-12 22:21:31,909 - INFO - Skipping article 'Nothing is stronger than quantum connections – and now we know why' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'How to harness your emotions for a happier, calmer life' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Climate drama Families Like Ours deserves to be a word-of-mouth hit' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Does intermittent fasting improve gut health? Why it’s hard to say' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'AI hallucinations are getting worse – and they're here to stay' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'The everyday ways climate change is already making our lives worse' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Was a famous supernova an alien invader from another galaxy?' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Chimps share 'building blocks of musical rhythm' with humans' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Major US cities like New York and Seattle are sinking at a rapid rate' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Is the fungal science in The Last of Us going off the rails?' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Our favourite science fiction books of all time (the ones we forgot)' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Europe increasingly vulnerable to hailstones the size of golfballs' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'These photos reveal the unique agricultural system of the Maya people' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Marcus du Sautoy's new book is good on maths, less so on the arts' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Failed Soviet probe will soon crash to Earth – and we don't know where' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'The maths that tells us when a scientific discovery is real – or not' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Record heat in 2023 and 2024 may just have been natural variability' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'What if we could experience life as another species?' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'The birds upending our idea of shared parenting' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Quantum computers could protect our data from quantum computers' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Would snails be better than whales for explaining big data? Maybe' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Don't ban kids from social media; create a site that works for them' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'An expert's new book unravels the amazing secrets of the vagus nerve' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Dementia cases are rising faster in China than the rest of the world' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article '99.999 per cent of the deep seabed remains unexplored by humans' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Science is a Pandora's box – but we should open it anyway' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Strange microbes give clues to the ancestor of all complex life' as it is not from specified date.
+2025-05-12 22:21:31,910 - INFO - Skipping article 'Concerns raised over AI trained on 57 million NHS medical records' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'England has just given the thumbs up to gene-edited plants. Hooray!' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'A clean energy source may be lurking beneath mountain ranges' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Chronic pain could be eased by learning to regulate negative emotions' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Landslide rescuers to get help from rapid analysis of seismic data' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Ireland's iconic megalithic tombs may have had an unexpected function' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Shingles vaccine linked with lower risk of many common heart problems' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'US government is using AI for unprecedented social media surveillance' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Psychedelics may boost mental health by dampening inflammation' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Quantum computers don’t always need more qubits – just add chaos' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Can running too far be bad for your health?' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Drugs like Wegovy can be effective at treating fatty liver disease' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'How vanishing Y chromosomes could help explain men's ill health' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'How a simple walk can bust stress, boost cognition and fight diseases' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'The 'impossible' particle hinting at the universe's biggest secrets' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'The world, the universe and us: We're relaunching our weekly podcast' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'This sensational novel shows what climate fiction can be' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Bitter argument breaks out over controversial theory of consciousness' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Disastrous back-to-back heatwaves and droughts surge across Eurasia' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Tiny rewards can protect the grid from a surge in electric vehicles' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Dark energy bombshell sparks race to find a new model of the universe' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Innovative antivenom may work against the world's deadliest snakes' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Extreme heat poses Spanish-style blackout threat to UK electrical grid' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Brain signals can change the gut microbiome in as little as 2 hours' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Best evidence yet that dolphin whistles are like a shared language' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Captivating images expose a 'staged version' of nature' as it is not from specified date.
+2025-05-12 22:21:31,911 - INFO - Skipping article 'Welcome to a great, straightforward guide to the tree of life' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Our cells can divide in a completely unexpected way' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Hijacked cicadas play music like a cyborg loudspeaker' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Meta, Amazon and Google accused of 'distorting' key AI rankings' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'How Greenland sharks live for hundreds of years without going blind' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Key component of dark chocolate might have an anti-ageing effect' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article ''Dark photon' theory of light aims to tear up a century of physics' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'The best new science fiction books of May 2025' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Why do so many AI company logos look like buttholes?' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Does science have a future in the US?' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'We may soon be able to hold fossil fuel companies to account' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Housework robots are a step closer as they learn to work in any home' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Robert Macfarlane asks if a river is alive in his provocative new book' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Your washing machine may not actually rid clothes of harmful bacteria' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Let's remember that extraordinary claims need extraordinary evidence' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Microplastics could be hampering the ocean’s ability to capture carbon' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Deepfake makers can now evade an unusual detection method' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Our wounds heal slower than the cuts and scrapes of other primates' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Trump administration jeopardises key report on climate change' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Reddit users were subjected to AI-powered experiment without consent' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Air filters in classrooms reduce sick days by more than 10 per cent' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'A new version of the periodic table could change how we measure time' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'US plans massive health database to study autism – will it work?' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Humans evolved to survive mild burns at the expense of severe ones' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Earthquakes could be an overlooked source of underground hydrogen fuel' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Virtual reality could help men understand the impacts of catcalling' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Is Keir Starmer being advised by AI? The UK government won’t tell us' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'First ever 'black hole bomb' created in the lab' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Should you water your orchid with ice cubes?' as it is not from specified date.
+2025-05-12 22:21:31,912 - INFO - Skipping article 'Can a strange state of matter explain what life is – and how it began?' as it is not from specified date.
+2025-05-12 22:21:31,913 - INFO - Skipping article 'Chronicling nature activism in a coastal corner of India' as it is not from specified date.
+2025-05-12 22:21:31,913 - INFO - Skipping article 'How astonishing observatories could do big physics from the moon' as it is not from specified date.
+2025-05-12 22:21:31,913 - INFO - Skipping article 'US government defunds research on misinformation' as it is not from specified date.
+2025-05-12 22:21:31,913 - INFO - Skipping article 'Chatbots can hide secret messages in seemingly normal conversations' as it is not from specified date.
+2025-05-12 22:21:31,913 - INFO - Skipping article 'Ancient supervolcano eruption had surprisingly mild impact on climate' as it is not from specified date.
+2025-05-12 22:21:31,913 - INFO - Skipping article 'Hackers could 'vandalise' quantum computers without people noticing' as it is not from specified date.
+2025-05-12 22:21:31,913 - INFO - Skipping article 'A dramatic rethink of Parkinson’s offers new hope for treatment' as it is not from specified date.
+2025-05-12 22:21:31,913 - INFO - Fetching feed from Scientific American Science (http://rss.sciam.com/ScientificAmerican-Global)
+2025-05-12 22:21:33,213 - INFO - Scraping full text from https://www.scientificamerican.com/article/u-k-funds-geoengineering-experiments-as-global-controversy-grows/
+2025-05-12 22:21:34,265 - INFO - Article 'U.K. Funds Geoengineering Experiments as Global Controversy Grows' successfully saved to the Article.
+2025-05-12 22:21:34,266 - INFO - Scraping full text from https://www.scientificamerican.com/article/breeding-for-cuteness-is-making-dogs-and-cats-look-more-alike/
+2025-05-12 22:21:35,254 - INFO - Article 'Breeding for ‘Cuteness’ Is Making Dogs and Cats Look More Alike' successfully saved to the Article.
+2025-05-12 22:21:35,256 - INFO - Scraping full text from https://www.scientificamerican.com/article/knittings-complex-shapes-explained-in-new-physics-model/
+2025-05-12 22:21:36,176 - INFO - Article 'Knitting’s Complex Shapes Explained in New Physics Model' successfully saved to the Article.
+2025-05-12 22:21:36,177 - INFO - Scraping full text from https://www.scientificamerican.com/podcast/episode/kosmos-482-falls-cuttlefish-wave-and-the-wealthy-warm-the-climate/
+2025-05-12 22:21:37,304 - INFO - Article 'Kosmos-482 Falls, Cuttlefish Wave, and the Wealthy Warm the Climate' successfully saved to the Article.
+2025-05-12 22:21:37,304 - INFO - Skipping article 'Large Hadron Collider Physicists Turn Lead into Gold—For a Fraction of a Second' as it is not from specified date.
+2025-05-12 22:21:37,304 - INFO - Skipping article 'Climate Change Will Cause a Lifetime of Extreme Heat for Today’s Children' as it is not from specified date.
+2025-05-12 22:21:37,304 - INFO - Skipping article 'Stronger Solar Activity Cycles May Be in the Sun’s Forecast' as it is not from specified date.
+2025-05-12 22:21:37,304 - INFO - Skipping article 'Trump Aims to Cut Hospital Disaster Preparedness Program' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'Do We Really Know Less about the Deep Sea Than the Moon or Mars?' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'Linguists Find Proof of Sweeping Language Pattern Once Deemed a ‘Hoax’' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'The Strange and Surprising History of the Once-Rejected Zero' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'What Is a Galaxy?' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'Measuring Gluons and Quarks at the Brookhaven Relativistic Heavy Ion Collider, the Nation’s Only Particle Collider' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'HIV Testing and Prevention Efforts Gutted as Trump Funding Cuts Sweep U.S. South' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'What to Know about Kosmos-482, the Soviet Spacecraft Crash-Landing on Earth' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'Congress Counters Trump Threat to Abolish FEMA with Massive Restructuring Plan' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'Trump Budget Calls for Stranding NASA’s Mars Samples on the Red Planet' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'India and Pakistan Remind Us We Need to Stop the Risk of Nuclear War' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'Denver, Dallas among the Major U.S. Cities Sinking into the Ground' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'The EPA Plans to Terminate the Energy Star Program. Here’s What That Means' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'How Nostalgia Keeps Friendships Alive' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'Political Attacks on Libraries Endanger Small-Town Democracy' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'Stronger Flood-Related Building Codes Are Coming for New Hospitals, Schools and Apartments' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'Xanthorox AI Lets Anyone Become a Cybercriminal' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'Blood of Man Who’s Had 200 Snakebites Helps Make a Potent Antivenom' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'IVF Treatment Faces Threats from ‘Fetal Personhood’ Laws That Would Grant Fetuses Legal Rights' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'How NASA Can Make the Moon Great Again' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'The Chemistry of the Papal Conclave’s Black and White Smoke' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'The Brood XIV Zombie Cicadas Are Coming' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'Casey Johnston’s Book A Physical Education Is a Lesson in Finding a  Better Balanced Fitness' as it is not from specified date.
+2025-05-12 22:21:37,305 - INFO - Skipping article 'How Being Watched Changes How You Think' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'Could AI Really Kill Off Humans?' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'Trump EPA Reorganization Signals End to Climate Work' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'These Fish and Flies Are Engineered to Break Down Mercury' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'Do ‘Alternative’ Measles Treatments Touted by RFK Jr. Work?' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'Trump Targets Air-Conditioning and Heating Funds for Low-Income Households' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'Scientists Use Ancient Chinese Poetry to Study Endangered Yangtze Porpoise' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'What Would Einstein Tell Trump?' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article '‘Agreeing to Disagree’ Is Hurting Your Relationships—Here’s What to Do Instead' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'Cuttlefish May Communicate with Discolike Arm Gestures' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'New Data Released from NASA’s Juno Mission, and New Satellites Launched for Internet and Trees' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'Self-Driving Cars Have New Rules in the U.S. Here’s Why That Matters' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'Under Trump, National Science Foundation Cuts Off All Funding to Scientists' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'Solar Geoengineering Is Possible with Existing Aircraft, Study Finds' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'Could the Sun Unleash Dangerous Superflares?' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'The Threatened Fungi on the IUCN Red List Are Important to our Ecology' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'The Scary Implications of U.S. Government Attacks on Medical Journals' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'RFK, Jr., Funds Universal Vaccines for Flu and COVID—Here’s What That Means' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'If a Chatbot Tells You It Is Conscious, Should You Believe It?' as it is not from specified date.
+2025-05-12 22:21:37,306 - INFO - Skipping article 'Trump Quietly Halts Money to States for Preventing Disaster Damage' as it is not from specified date.
+2025-05-12 22:21:48,995 - INFO - Fetching feed from BBC WORLD (https://feeds.bbci.co.uk/news/world/rss.xml)
+2025-05-12 22:21:49,586 - INFO - Scraping full text from https://www.bbc.com/news/articles/clyg2939ej2o
+2025-05-12 22:21:51,748 - INFO - Article 'What does the US-China tariff deal mean?' successfully saved to the ArticlePolitics.
+2025-05-12 22:21:51,749 - INFO - Scraping full text from https://www.bbc.com/news/articles/crljn5046epo
+2025-05-12 22:21:52,455 - INFO - Article 'First group of white South Africans lands in US under Trump refugee plan' successfully saved to the ArticlePolitics.
+2025-05-12 22:21:52,456 - INFO - Scraping full text from https://www.bbc.com/news/articles/cg71gne9ydko
+2025-05-12 22:21:54,792 - INFO - Article 'Pope calls for journalists to be released from prison' successfully saved to the ArticlePolitics.
+2025-05-12 22:21:54,793 - INFO - Scraping full text from https://www.bbc.com/news/articles/c74ql7evgq7o
+2025-05-12 22:21:57,033 - INFO - Article 'Scepticism and cautious hope as PKK takes historic step to disband' successfully saved to the ArticlePolitics.
+2025-05-12 22:21:57,034 - INFO - Scraping full text from https://www.bbc.com/news/articles/c1w3jlqlp27o
+2025-05-12 22:21:58,260 - INFO - Article 'Crates full of Nazi documents found in Argentine court's basement' successfully saved to the ArticlePolitics.
+2025-05-12 22:21:58,261 - INFO - Scraping full text from https://www.bbc.com/news/articles/crk24jxk646o
+2025-05-12 22:21:59,867 - INFO - Article 'Duterte elected mayor of home city from Hague prison' successfully saved to the ArticlePolitics.
+2025-05-12 22:21:59,868 - INFO - Scraping full text from https://www.bbc.com/news/articles/cz63jnx52l0o
+2025-05-12 22:22:02,320 - INFO - Article 'Entire Gaza population at critical risk of famine, UN-backed assessment says' successfully saved to the ArticlePolitics.
+2025-05-12 22:22:02,321 - INFO - Scraping full text from https://www.bbc.com/news/articles/cy5ell3gkxvo
+2025-05-12 22:22:04,122 - INFO - Article 'Trump defends plan to use Qatari luxury jet for Air Force One' successfully saved to the ArticlePolitics.
+2025-05-12 22:22:04,123 - INFO - Scraping full text from https://www.bbc.com/news/articles/cm26760pj13o
+2025-05-12 22:22:05,745 - INFO - Article 'Modi vows strong response to future 'terror attacks' against India' successfully saved to the ArticlePolitics.
+2025-05-12 22:22:05,745 - INFO - Skipping article 'Zelensky challenges Putin to meet him after Trump demands Ukraine-Russia talks' as it is not from specified date.
+2025-05-12 22:22:05,746 - INFO - Scraping full text from https://www.bbc.com/sport/cricket/articles/c0mrzlr919xo
+2025-05-12 22:22:07,511 - INFO - Article 'India great Kohli retires from Test cricket' successfully saved to the ArticlePolitics.
+2025-05-12 22:22:07,512 - INFO - Scraping full text from https://www.bbc.com/news/articles/cgegj1rvq84o
+2025-05-12 22:22:08,451 - INFO - Article 'Poland accuses Russia of arson over 2024 shopping centre fire' successfully saved to the ArticlePolitics.
+2025-05-12 22:22:08,451 - INFO - Skipping article 'Trump heads to Saudi Arabia eyeing more investment in US' as it is not from specified date.
+2025-05-12 22:22:08,451 - INFO - Skipping article 'Amber Heard announces birth of twins in Mother's Day post' as it is not from specified date.
+2025-05-12 22:22:08,451 - INFO - Skipping article 'Why Burkina Faso's junta leader has captured hearts and minds around the world' as it is not from specified date.
+2025-05-12 22:22:08,451 - INFO - Skipping article 'Taliban suspends chess over gambling concerns' as it is not from specified date.
+2025-05-12 22:22:08,451 - INFO - Skipping article 'Three men held over suitcases stuffed with hermit crabs' as it is not from specified date.
+2025-05-12 22:22:08,451 - INFO - Skipping article 'Soviet-era spacecraft 'likely' to have re-entered Earth's atmosphere' as it is not from specified date.
+2025-05-12 22:22:08,452 - INFO - Skipping article 'No water, no power - Port Sudan reeling after week of attacks' as it is not from specified date.
+2025-05-12 22:22:08,452 - INFO - Skipping article 'Trump administration considers suspending habeas corpus' as it is not from specified date.
+2025-05-12 22:22:08,452 - INFO - Scraping full text from https://www.bbc.com/news/articles/c1j5r9ngd3ko
+2025-05-12 22:22:09,779 - INFO - Article 'China has come to the table - but this fight is far from over' successfully saved to the ArticlePolitics.
+2025-05-12 22:22:09,779 - INFO - Skipping article 'BBC team's tense encounter with sanctioned Israeli settler while filming in West Bank' as it is not from specified date.
+2025-05-12 22:22:09,779 - INFO - Skipping article 'The rare disease in a remote town where 'almost everyone is a cousin'' as it is not from specified date.
+2025-05-12 22:22:09,779 - INFO - Skipping article 'How backchannels and US mediators pulled India and Pakistan back from the brink' as it is not from specified date.
+2025-05-12 22:22:09,779 - INFO - Skipping article 'What Trump does next on Ukraine is key - and he could go either way' as it is not from specified date.
+2025-05-12 22:22:09,779 - INFO - Skipping article ''Proud to be young' - Beauty queen, lawyer and Botswana's youngest cabinet minister' as it is not from specified date.
+2025-05-12 22:22:09,779 - INFO - Skipping article 'One of Alcatraz's last living inmates on Trump's plan to reopen notorious prison' as it is not from specified date.
+2025-05-12 22:22:09,779 - INFO - Skipping article 'What is habeas corpus and why might Donald Trump want to suspend it?' as it is not from specified date.
+2025-05-12 22:22:09,779 - INFO - Skipping article 'Along the Canada border, small-town America feels sting of Trump's trade war' as it is not from specified date.
+2025-05-12 22:22:09,779 - INFO - Skipping article 'Watch: Crowds cheer as Pope holds first Sunday address' as it is not from specified date.
+2025-05-12 22:22:09,779 - INFO - Skipping article 'White House 'actively looking at' suspending habeas corpus' as it is not from specified date.
+2025-05-12 22:22:09,779 - INFO - Skipping article 'Watch: Steve Rosenberg reports from Russia's Red Square on Victory Day' as it is not from specified date.
+2025-05-12 22:22:09,779 - INFO - Skipping article 'Watch: Trump misspeaks and calls toy firm Mattel a country' as it is not from specified date.
+2025-05-12 22:22:09,779 - INFO - Skipping article 'Three things we learned from Putin's Red Square parade' as it is not from specified date.
+2025-05-12 22:22:09,780 - INFO - Fetching feed from Al Jazeera (https://www.aljazeera.com/xml/rss)
+2025-05-12 22:23:04,137 - INFO - Summary generated and saved for 2025-05-12.
+2025-05-12 22:24:00,548 - INFO - Summary generated and saved for 2025-05-12.

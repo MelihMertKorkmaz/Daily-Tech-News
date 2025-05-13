@@ -1,0 +1,188 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daily Tech News</title>
+  <link rel="stylesheet" href="{% static 'news/styles.css' %}">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      transition: background-color 0.3s, color 0.3s;
+      overflow-x: hidden;
+    }
+
+    .dark-mode {
+      background-color: #121212;
+      color: #ffffff;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .dark-mode a {
+      color: #bb86fc;
+    }
+
+    .theme-toggle-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 10px;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    .slide-container {
+      position: relative;
+      width: 100%;
+      max-width: 1000px;
+      margin: 2rem auto;
+      min-height: 400px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .article-slide {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      opacity: 0;
+      transform: translateX(100%);
+      transition: transform 0.6s ease, opacity 0.6s ease;
+      padding: 2rem;
+      border: 2px solid #333333;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.05);
+      font-size: 1.2rem;
+
+    }
+    .article-slide img {
+      display: block;
+      margin: 1rem auto;
+      max-width: 100%;
+      max-height: 400px;
+      width: auto;
+      height: auto;
+      border: 2px solid black;
+      object-fit: contain;
+    }
+
+
+    .article-slide.active {
+      opacity: 1;
+      transform: translateX(0);
+      position: relative;
+    }
+
+    .article-slide.slide-left {
+      transform: translateX(-100%);
+    }
+
+    .nav-buttons {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .nav-buttons button {
+      padding: 8px 16px;
+      margin: 0 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    ol {
+      padding-left: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <button class="theme-toggle-btn" onclick="toggleTheme()">🌙</button>
+
+  <h1><a href="{% url 'home_politics' %}">Daily Politics News Summary</a></h1>
+  <h2><strong>Date:</strong> {{ summary.date }}</h2>
+
+  <div class="slide-container">
+    {% for index, title, article, link, image in article_data %}
+      <div class="article-slide{% if forloop.first %} active{% endif %}">
+        <h2>{{index}}.  {{title}}</h2>
+        <p> &nbsp;&nbsp;{{ article }}</p>
+        <a href="{{link}}" style='color: #bb86fc' target="_blank">{{link}}</a>
+        {% if image %}
+        <br>
+        <img src='{{image}}'>
+        {% endif %}
+      </div>
+
+    {% endfor %}
+  </div>
+
+  <div class="nav-buttons">
+    <button id = prevSlide onclick="prevSlide()"> ◀ </button>
+    <button id= nextSlide onclick="nextSlide()"> ▶ </button>
+  </div>
+
+
+
+
+  <script>
+    function applyStoredTheme() {
+      const darkModeEnabled = localStorage.getItem('darkMode') === 'true';
+      if (darkModeEnabled) {
+        document.body.classList.add('dark-mode');
+        document.querySelector('.theme-toggle-btn').textContent = '☀️';
+      }
+    }
+
+    function toggleTheme() {
+      const isDark = document.body.classList.toggle('dark-mode');
+      localStorage.setItem('darkMode', isDark);
+      document.querySelector('.theme-toggle-btn').textContent = isDark ? '☀️' : '🌙';
+    }
+
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.article-slide');
+
+    function showSlide(index, direction = 1) {
+      slides[currentSlide].classList.remove('active');
+
+      // Optionally animate out
+      slides[currentSlide].classList.remove('slide-left');
+      if (direction < 0) slides[currentSlide].classList.add('slide-left');
+
+      currentSlide = (index + slides.length) % slides.length;
+
+      slides.forEach((slide, i) => {
+        slide.style.zIndex = i === currentSlide ? 1 : 0;
+        slide.classList.remove('slide-left');
+      });
+
+      slides[currentSlide].classList.add('active');
+    }
+
+    function nextSlide() {
+      showSlide(currentSlide + 1, 1);
+    }
+
+    function prevSlide() {
+      showSlide(currentSlide - 1, -1);
+    }
+
+    document.addEventListener('DOMContentLoaded', applyStoredTheme);
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowRight') {
+      document.getElementById('nextSlide').click();
+    } else if (e.key === 'ArrowLeft') {
+      document.getElementById('prevSlide').click();
+    }
+  })
+  </script>
+</body>
+</html>

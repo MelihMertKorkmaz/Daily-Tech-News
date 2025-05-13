@@ -2,7 +2,7 @@ import feedparser
 import requests
 from bs4 import BeautifulSoup
 import datetime
-from .models import RSSSource, Article
+from .models import RSSSource, Article, RSSSourcePolitics, ArticlePolitics
 import logging
 
 logger = logging.getLogger(__name__)
@@ -22,8 +22,8 @@ def fetch_and_parse_feeds(specified_date=None):
     elif specified_date is None:
         specified_date = datetime.date.today()
 
+    sources= RSSSource.objects.all()
 
-    sources = RSSSource.objects.all()
     articles = []
 
     for source in sources:
@@ -58,7 +58,7 @@ def fetch_and_parse_feeds(specified_date=None):
                     image_url= image_url
                 )
                 articles.append(article)
-                logger.info(f"Article '{title}' successfully saved to the database.")
+                logger.info(f"Article '{title}' successfully saved to the {Article._meta.verbose_name}.")
             except Exception as e:
                 logger.error(f"Failed to save article '{title}': {e}")
 
@@ -98,3 +98,53 @@ def is_date(entry, specified_date):
     except Exception as e:
         logger.error(f"Error checking if article is from specified date: {e}")
         return False
+
+#-------------POLITICS--------------
+
+def fetch_and_parse_feeds_politics(specified_date=None):
+    if isinstance(specified_date, str):
+        specified_date = datetime.datetime.strptime(specified_date, "%d-%m-%Y").date()
+    elif specified_date is None:
+        specified_date = datetime.date.today()
+
+    sources= RSSSourcePolitics.objects.all()
+
+    articles = []
+
+    for source in sources:
+        logger.info(f"Fetching feed from {source.name} ({source.url})")
+        feed = feedparser.parse(source.url)
+
+        for entry in feed.entries:
+            title = entry.title
+            link = entry.link
+
+            if not is_date(entry, specified_date):
+                logger.info(f"Skipping article '{title}' as it is not from specified date.")
+                continue
+
+            if ArticlePolitics.objects.filter(link=link).exists():
+                logger.info(f"Skipping duplicate article '{title}'.")
+                continue
+
+            published = None
+            if hasattr(entry, "published_parsed"):
+                published = datetime.datetime(*entry.published_parsed[:6], tzinfo=datetime.timezone.utc)
+
+            full_text = scrape_full_text(link)
+            image_url = fetch_og_image(link)
+
+            try:
+                article = ArticlePolitics.objects.create(
+                    title=title,
+                    link=link,
+                    published=published,
+                    full_text=full_text,
+                    image_url= image_url
+                )
+                articles.append(article)
+                logger.info(f"Article '{title}' successfully saved to the {ArticlePolitics._meta.verbose_name}.")
+            except Exception as e:
+                logger.error(f"Failed to save article '{title}': {e}")
+
+    return articles

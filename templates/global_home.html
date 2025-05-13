@@ -1,0 +1,95 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily News Summary</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+      height: 100vh;
+      background-color: #f0f0f0;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .split-container {
+      display: flex;
+      height: 100vh;
+      width: 100%;
+    }
+
+    .split-half {
+      flex: 1;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      font-size: 3rem;
+      font-weight: bold;
+      background-size: cover;
+      background-position: center;
+      transition: transform 0.4s ease, box-shadow 0.3s ease;
+      height: 100%;
+    }
+
+    .split-half:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      z-index: 2;
+      color: #bb86fc;
+    }
+
+    .split-tech {
+      background-image: url('{% static "news/tech_background.webp" %}');
+    }
+
+    .split-politics {
+      background-image: url('{% static "news/politics_background.webp" %}');
+    }
+
+    .split-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: 1;
+    }
+
+    .split-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .split-half:hover .split-content{
+      color: #bb86fc;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="split-container">
+    <a href="{% url 'home' %}" class="split-half split-tech">
+      <div class="split-overlay"></div>
+      <div class="split-content">Tech News</div>
+    </a>
+
+    <a href="{% url 'home_politics' %}" class="split-half split-politics">
+      <div class="split-overlay"></div>
+      <div class="split-content">Politics News</div>
+    </a>
+  </div>
+
+</body>
+</html>
