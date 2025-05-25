@@ -4,7 +4,8 @@ from .models import DailySummary, Article, ArticlePolitics, DailySummaryPolitics
 
 
 def home_view(request):
-    dates = DailySummary.objects.values_list('date', flat=True).distinct().order_by('-date')
+    dates = DailySummary.objects.values_list('date',
+    flat=True).distinct().order_by('-date')
     formatted_dates = [
         {
             'display': date.strftime('%d %B %Y'),
@@ -13,14 +14,16 @@ def home_view(request):
         for date in dates
     ]
 
-    return render(request, 'news/home.html', {'dates': formatted_dates})
+    return render(request, 'news/home.html',
+    {'dates': formatted_dates})
 
 
 def daily_summary_by_date_view(request, date):
     try:
         parsed_date = datetime.strptime(date, '%d-%m-%Y').date()
     except ValueError:
-        return render(request, 'news/invalid_date.html', status=400)
+        return render(request, 'news/invalid_date.html',
+        status=400)
 
     summary = get_object_or_404(DailySummary, date=parsed_date)
     articles = Article.objects.filter(published__date=parsed_date)

@@ -1,5 +1,4 @@
 {% load static %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -104,10 +103,8 @@
 </head>
 <body>
   <button class="theme-toggle-btn" onclick="toggleTheme()">🌙</button>
-
   <h1><a href="{% url 'home' %}">Daily Tech News Summary</a></h1>
   <h2><strong>Date:</strong> {{ summary.date }}</h2>
-
   <div class="slide-container">
     {% for index, title, article, link, image in article_data %}
       <div class="article-slide{% if forloop.first %} active{% endif %}">
@@ -119,18 +116,12 @@
         <img src='{{image}}'>
         {% endif %}
       </div>
-
     {% endfor %}
   </div>
-
   <div class="nav-buttons">
     <button id = prevSlide onclick="prevSlide()"> ◀ </button>
     <button id= nextSlide onclick="nextSlide()"> ▶ </button>
   </div>
-
-
-
-
   <script>
     function applyStoredTheme() {
       const darkModeEnabled = localStorage.getItem('darkMode') === 'true';
@@ -186,3 +177,5 @@
   </script>
 </body>
 </html>
+
+

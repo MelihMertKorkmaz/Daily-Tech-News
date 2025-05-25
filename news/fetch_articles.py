@@ -77,7 +77,7 @@ def scrape_full_text(url):
         logger.error(f"Error scraping {url}: {e}")
         return ""
 
-#to fetch overgraph image (preview image)
+#to fetch overgraph image (preview image) or first image appears on the link page
 def fetch_og_image(url):
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')

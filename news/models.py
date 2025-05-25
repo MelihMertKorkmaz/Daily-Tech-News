@@ -24,7 +24,7 @@ class DailySummary(models.Model):
     def __str__(self):
         return "Daily News Reports in TECH"
 
-  #----------------------POLITICS SECTION FOR MY PERSONAL USE CASE-----------------------------------------------
+  #----------------------POLITICS SECTION-----------------------------------------------
 
 
 
