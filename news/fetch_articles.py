@@ -8,13 +8,28 @@ import logging
 logger = logging.getLogger(__name__)
 if not logger.handlers:
     logging.basicConfig(
-        level=logging.INFO,
+        level=logging.DEBUG,
         format="%(asctime)s - %(levelname)s - %(message)s",
         filename="fetch_articles.log",
         filemode="a",
     )
+    # Keep console output at INFO level to avoid flooding terminal
+    console = logging.StreamHandler()
+    console.setLevel(logging.INFO)
+    console.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
+    logger.addHandler(console)
 
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+
+def fetch_feed(url):
+    """Fetch RSS feed using requests (with browser UA) then parse with feedparser."""
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=15)
+        response.raise_for_status()
+        return feedparser.parse(response.content)
+    except Exception as e:
+        logger.error(f"Failed to fetch feed from {url}: {e}")
+        return feedparser.FeedParserDict(entries=[])
 
 def fetch_and_parse_feeds(specified_date=None):
     if isinstance(specified_date, str):
@@ -22,24 +37,41 @@ def fetch_and_parse_feeds(specified_date=None):
     elif specified_date is None:
         specified_date = datetime.date.today()
 
+    logger.info("="*60)
+    logger.info(f"[TECH FETCH] Starting — target date: {specified_date}")
+    logger.info("="*60)
+
     sources= RSSSource.objects.all()
+    if not sources:
+        logger.warning("[TECH FETCH] No RSS sources configured! Add sources via admin.")
+        return []
 
     articles = []
+    total_entries = 0
+    skipped_date = 0
+    skipped_duplicate = 0
+    saved_count = 0
+    failed_count = 0
 
     for source in sources:
-        logger.info(f"Fetching feed from {source.name} ({source.url})")
-        feed = feedparser.parse(source.url)
+        logger.info(f"[TECH] Fetching feed: {source.name} ({source.url})")
+        feed = fetch_feed(source.url)
+        source_entries = len(feed.entries)
+        logger.info(f"[TECH] {source.name}: {source_entries} entries found in feed")
+        total_entries += source_entries
 
         for entry in feed.entries:
             title = entry.title
             link = entry.link
 
             if not is_date(entry, specified_date):
-                logger.info(f"Skipping article '{title}' as it is not from specified date.")
+                logger.debug(f"[TECH] Date skip: '{title}'")
+                skipped_date += 1
                 continue
 
             if Article.objects.filter(link=link).exists():
-                logger.info(f"Skipping duplicate article '{title}'.")
+                logger.info(f"[TECH] Duplicate skip: '{title}'")
+                skipped_duplicate += 1
                 continue
 
             published = None
@@ -58,9 +90,24 @@ def fetch_and_parse_feeds(specified_date=None):
                     image_url= image_url
                 )
                 articles.append(article)
-                logger.info(f"Article '{title}' successfully saved to the {Article._meta.verbose_name}.")
+                saved_count += 1
+                logger.info(f"[TECH] ✅ Saved: '{title}'")
             except Exception as e:
-                logger.error(f"Failed to save article '{title}': {e}")
+                failed_count += 1
+                logger.error(f"[TECH] ❌ Failed to save '{title}': {e}")
+
+    logger.info("-"*60)
+    logger.info(f"[TECH FETCH] Summary for {specified_date}:")
+    logger.info(f"  Sources checked : {sources.count()}")
+    logger.info(f"  Total entries   : {total_entries}")
+    logger.info(f"  Skipped (date)  : {skipped_date}")
+    logger.info(f"  Skipped (dupe)  : {skipped_duplicate}")
+    logger.info(f"  Saved           : {saved_count}")
+    logger.info(f"  Failed          : {failed_count}")
+    logger.info("-"*60)
+
+    if saved_count == 0 and total_entries > 0:
+        logger.warning(f"[TECH FETCH] ⚠️  0 articles saved out of {total_entries} entries! Check date filter — feeds may not have articles for {specified_date}.")
 
     return articles
 
@@ -107,24 +154,41 @@ def fetch_and_parse_feeds_politics(specified_date=None):
     elif specified_date is None:
         specified_date = datetime.date.today()
 
+    logger.info("="*60)
+    logger.info(f"[POLITICS FETCH] Starting — target date: {specified_date}")
+    logger.info("="*60)
+
     sources= RSSSourcePolitics.objects.all()
+    if not sources:
+        logger.warning("[POLITICS FETCH] No RSS sources configured! Add sources via admin.")
+        return []
 
     articles = []
+    total_entries = 0
+    skipped_date = 0
+    skipped_duplicate = 0
+    saved_count = 0
+    failed_count = 0
 
     for source in sources:
-        logger.info(f"Fetching feed from {source.name} ({source.url})")
-        feed = feedparser.parse(source.url)
+        logger.info(f"[POLITICS] Fetching feed: {source.name} ({source.url})")
+        feed = fetch_feed(source.url)
+        source_entries = len(feed.entries)
+        logger.info(f"[POLITICS] {source.name}: {source_entries} entries found in feed")
+        total_entries += source_entries
 
         for entry in feed.entries:
             title = entry.title
             link = entry.link
 
             if not is_date(entry, specified_date):
-                logger.info(f"Skipping article '{title}' as it is not from specified date.")
+                logger.debug(f"[POLITICS] Date skip: '{title}'")
+                skipped_date += 1
                 continue
 
             if ArticlePolitics.objects.filter(link=link).exists():
-                logger.info(f"Skipping duplicate article '{title}'.")
+                logger.info(f"[POLITICS] Duplicate skip: '{title}'")
+                skipped_duplicate += 1
                 continue
 
             published = None
@@ -143,8 +207,23 @@ def fetch_and_parse_feeds_politics(specified_date=None):
                     image_url= image_url
                 )
                 articles.append(article)
-                logger.info(f"Article '{title}' successfully saved to the {ArticlePolitics._meta.verbose_name}.")
+                saved_count += 1
+                logger.info(f"[POLITICS] ✅ Saved: '{title}'")
             except Exception as e:
-                logger.error(f"Failed to save article '{title}': {e}")
+                failed_count += 1
+                logger.error(f"[POLITICS] ❌ Failed to save '{title}': {e}")
+
+    logger.info("-"*60)
+    logger.info(f"[POLITICS FETCH] Summary for {specified_date}:")
+    logger.info(f"  Sources checked : {sources.count()}")
+    logger.info(f"  Total entries   : {total_entries}")
+    logger.info(f"  Skipped (date)  : {skipped_date}")
+    logger.info(f"  Skipped (dupe)  : {skipped_duplicate}")
+    logger.info(f"  Saved           : {saved_count}")
+    logger.info(f"  Failed          : {failed_count}")
+    logger.info("-"*60)
+
+    if saved_count == 0 and total_entries > 0:
+        logger.warning(f"[POLITICS FETCH] ⚠️  0 articles saved out of {total_entries} entries! Check date filter — feeds may not have articles for {specified_date}.")
 
     return articles

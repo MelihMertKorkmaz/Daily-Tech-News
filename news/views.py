@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from datetime import datetime
 from .models import DailySummary, Article, ArticlePolitics, DailySummaryPolitics
+import re
 
 
 def home_view(request):
@@ -18,6 +19,38 @@ def home_view(request):
     {'dates': formatted_dates})
 
 
+def parse_summary_blocks(summary_text, articles_qs):
+    """Parse summary text into structured blocks with title, link, summary, and image."""
+    # Build a lookup of image_url by article link
+    image_lookup = {a.link: a.image_url for a in articles_qs}
+
+    # Split on double newlines that precede a TITLE: line
+    raw_blocks = re.split(r'\n{2,}(?=TITLE:)', summary_text.strip())
+    article_data = []
+
+    for idx, block in enumerate(raw_blocks, 1):
+        lines = block.strip().split('\n')
+        title = ''
+        link = ''
+        summary_lines = []
+
+        for line in lines:
+            if line.startswith('TITLE:'):
+                title = line[len('TITLE:'):].strip()
+            elif line.startswith('LINK:'):
+                link = line[len('LINK:'):].strip()
+            else:
+                summary_lines.append(line)
+
+        summary = ' '.join(summary_lines).strip()
+        image = image_lookup.get(link, None)
+
+        if title and summary:
+            article_data.append((idx, title, summary, link, image))
+
+    return article_data
+
+
 def daily_summary_by_date_view(request, date):
     try:
         parsed_date = datetime.strptime(date, '%d-%m-%Y').date()
@@ -27,20 +60,11 @@ def daily_summary_by_date_view(request, date):
 
     summary = get_object_or_404(DailySummary, date=parsed_date)
     articles = Article.objects.filter(published__date=parsed_date)
-    links= [article.link for article in articles]
-    titles= [article.title for article in articles]
-    splitted_articles=summary.summary.split('\n\n')
-    indexes=[n+1 for n in range(len(splitted_articles))]
-    images = [article.image_url for article in articles]
-    article_data= zip(indexes, titles, splitted_articles, links, images)
-
+    article_data = parse_summary_blocks(summary.summary, articles)
 
     return render(request, 'news/daily_summary.html', {
         'summary': summary,
-        'links': links,
-        'titles': titles,
         'article_data': article_data,
-
     })
 
 
@@ -67,18 +91,9 @@ def daily_summary_by_date_view_politics(request, date):
 
     summary = get_object_or_404(DailySummaryPolitics, date=parsed_date)
     articles = ArticlePolitics.objects.filter(published__date=parsed_date)
-    links= [article.link for article in articles]
-    titles= [article.title for article in articles]
-    splitted_articles=summary.summary.split('\n\n')
-    indexes=[n+1 for n in range(len(splitted_articles))]
-    images = [article.image_url for article in articles]
-    article_data= zip(indexes, titles, splitted_articles, links, images)
-
+    article_data = parse_summary_blocks(summary.summary, articles)
 
     return render(request, 'news/daily_summary_politics.html', {
         'summary': summary,
-        'links': links,
-        'titles': titles,
         'article_data': article_data,
-
     })
