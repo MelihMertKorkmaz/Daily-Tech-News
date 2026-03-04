@@ -34,16 +34,35 @@ def deduplicate_articles(articles):
 
 def deduplicate_summary(summary_text):
     """Remove duplicate TITLE blocks from Gemini output (keeps first occurrence)."""
-    blocks = re.split(r'\n{2,}(?=TITLE:)', summary_text.strip())
+    raw_paragraphs = re.split(r'\n{2,}', summary_text.strip())
+    
+    blocks = []
+    current_block = []
+    
+    for para in raw_paragraphs:
+        if para.lstrip().startswith('TITLE:') or '\nLINK:' in para or para.lstrip().startswith('LINK:'):
+            if current_block:
+                blocks.append('\n'.join(current_block))
+                current_block = []
+        current_block.append(para)
+        
+    if current_block:
+        blocks.append('\n'.join(current_block))
+
     seen_titles = set()
     unique_blocks = []
     for block in blocks:
         # Extract title from block
         title = ''
-        for line in block.strip().split('\n'):
+        lines = block.strip().split('\n')
+        for i, line in enumerate(lines):
             if line.startswith('TITLE:'):
                 title = line[6:].strip().lower()
                 break
+            elif i == 0 and not line.startswith('TITLE:') and any(l.startswith('LINK:') for l in lines):
+                title = line.strip().replace('**', '').lower()
+                break
+
         if title and title not in seen_titles:
             seen_titles.add(title)
             unique_blocks.append(block.strip())

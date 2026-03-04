@@ -24,21 +24,36 @@ def parse_summary_blocks(summary_text, articles_qs):
     # Build a lookup of image_url by article link
     image_lookup = {a.link: a.image_url for a in articles_qs}
 
-    # Split on double newlines that precede a TITLE: line
-    raw_blocks = re.split(r'\n{2,}(?=TITLE:)', summary_text.strip())
+    raw_paragraphs = re.split(r'\n{2,}', summary_text.strip())
+    
+    blocks = []
+    current_block = []
+    
+    for para in raw_paragraphs:
+        if para.lstrip().startswith('TITLE:') or '\nLINK:' in para or para.lstrip().startswith('LINK:'):
+            if current_block:
+                blocks.append('\n'.join(current_block))
+                current_block = []
+        current_block.append(para)
+        
+    if current_block:
+        blocks.append('\n'.join(current_block))
+
     article_data = []
 
-    for idx, block in enumerate(raw_blocks, 1):
+    for idx, block in enumerate(blocks, 1):
         lines = block.strip().split('\n')
         title = ''
         link = ''
         summary_lines = []
 
-        for line in lines:
+        for i, line in enumerate(lines):
             if line.startswith('TITLE:'):
                 title = line[len('TITLE:'):].strip()
             elif line.startswith('LINK:'):
                 link = line[len('LINK:'):].strip()
+            elif i == 0 and not line.startswith('TITLE:') and any(l.startswith('LINK:') for l in lines):
+                title = line.strip().replace('**', '')
             else:
                 summary_lines.append(line)
 
